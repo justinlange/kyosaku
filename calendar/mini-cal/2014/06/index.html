@@ -1,0 +1,239 @@
+
+<html>
+<head>
+  <title>Mini Calendar</title>
+<style>
+---------------------------------------------------------- */
+/* 01 =GLOBAL BROWSER RESET
+---------------------------------------------------------- */
+/* YUI Reset version: 2.7.0 */
+
+html { color: #000; background: #5e5e5e; }
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td { margin: 0; padding: 0; }
+table { border-collapse: collapse; border-spacing: 0; }
+fieldset,img { border: 0; }
+address,caption,cite,code,dfn,em,strong,th,var,optgroup { font-style: inherit; font-weight: inherit; }
+del,ins { text-decoration: none; }
+li { list-style: none; }
+caption, th { text-align: left; }
+h1,h2,h3,h4,h5,h6 {	font-size: 100%; font-weight: normal; }
+q:before, q:after {	content: ''; }
+abbr,acronym { border: 0; font-variant: normal; }
+sup { vertical-align: baseline; }
+sub { vertical-align: baseline; }
+/*because legend doesn't inherit in IE */
+legend { color: #000; }
+input,button,textarea,select,optgroup,option { font-family: inherit; font-size: inherit; font-style: inherit; font-weight: inherit; }
+/*@purpose To enable resizing for IE */
+/*@branch For IE6-Win, IE7-Win */
+input,button,textarea,select { font-size: 100%; }
+
+body { background: #5e5e5e; -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+#mc_wrap { overflow-x: hidden; width: 238px; }
+#mc_calendar { margin: 0 0 0 10px; }
+#mc_calendar table { font-family: Helvetica, Arial, sans-serif; font-size: 12px; line-height: 16px; margin: 10px 0; width: 220px; }
+#mc_calendar td { background: #4b4b4b; border: 1px solid #5e5e5e; color: #999; padding: 5px 0; text-align: center; width: 31px; }
+#mc_calendar .today { background: #0d0d0d; color: #00a1d8; }
+#mc_calendar .has_events { background: #2d2d2d; color: #fff; }
+#mc_calendar .has_events a { color: #fff; text-decoration: none; }
+#mc_calendar th { color: #fff; font-weight: bold; text-align: center; }
+#mc_calendar th a { color: #fff; text-decoration: none; text-transform: uppercase; }
+#mc_calendar th a:hover { color: #ff3366; }
+#mc_calendar th a#mc_prev_month, #mc_calendar th a#mc_next_month  { /*background: url(http://www.sundance.org/images/wrapper/calendar-imagemap.png) no-repeat;*/ display: block; height: 17px; margin: 0; overflow: hidden; /*text-indent: -9999em;*/ width: 30px; color:#fff; }
+#mc_calendar th a#mc_prev_month { background-position: 0 -76px; }
+#mc_calendar th a#mc_next_month { background-position: -34px -76px; }
+
+#mc_days th { padding: 10px 0 0 0; }
+</style>
+</head>
+<body>
+
+<div id="mc_wrap">
+<div id="mc_calendar">
+         <table>
+            <thead>
+               <tr>
+                  <th colspan="1"><a id="mc_prev_month" class="icon left" href="http://www.sundance.org/calendar/mini-cal/2014/05/">&laquo;</a></th>
+                  <th colspan="5"><a href="http://www.sundance.org/calendar/month/2014/06/" target="_parent">June 2014</a></th>
+                  <th colspan="1"><a id="mc_next_month" class="icon right" href="http://www.sundance.org/calendar/mini-cal/2014/07/"> &raquo;</a></th>
+               </tr>
+               <tr id="mc_days">
+                  
+                  <th class="weekend ">S</th>
+                  
+                  <th class=" ">M</th>
+                  
+                  <th class=" ">T</th>
+                  
+                  <th class=" current">W</th>
+                  
+                  <th class=" ">T</th>
+                  
+                  <th class=" ">F</th>
+                  
+                  <th class="weekend ">S</th>
+                  
+               </tr>
+            </thead>
+            <tbody>
+               <tr>
+                  <td cellpadding="0" cellspacing="0" class="
+                                                                                                         weekend                                       "><div class="mc_date">
+                                          1
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                                                                                                              weekday                  "><div class="mc_date">
+                                          2
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                                                                                                              weekday                  "><div class="mc_date">
+                                          3
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                                                                                                              weekday                  "><div class="mc_date">
+                                          4
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                                                                                                              weekday                  "><div class="mc_date">
+                                          5
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                          has_events                                                                                    weekday                  "><div class="mc_date">
+                     <a href="http://www.sundance.org/calendar/day/2014/06/06/" target="_parent">                     6
+                     </a>                     </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                                                                                         weekend                                       "><div class="mc_date">
+                                          7
+                                          </div></td>
+
+               </tr>
+<tr>
+                  <td cellpadding="0" cellspacing="0" class="
+                                                                                                         weekend                                       "><div class="mc_date">
+                                          8
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                                                                                                              weekday                  "><div class="mc_date">
+                                          9
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                                                                                                              weekday                  "><div class="mc_date">
+                                          10
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                                                                                                              weekday                  "><div class="mc_date">
+                                          11
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                                                                                                              weekday                  "><div class="mc_date">
+                                          12
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                          has_events                                                                                    weekday                  "><div class="mc_date">
+                     <a href="http://www.sundance.org/calendar/day/2014/06/13/" target="_parent">                     13
+                     </a>                     </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                                                                                         weekend                                       "><div class="mc_date">
+                                          14
+                                          </div></td>
+
+               </tr>
+<tr>
+                  <td cellpadding="0" cellspacing="0" class="
+                                                                                                         weekend                                       "><div class="mc_date">
+                                          15
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                                                                                                              weekday                  "><div class="mc_date">
+                                          16
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                                                                                                              weekday                  "><div class="mc_date">
+                                          17
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                                                                                                              weekday                  "><div class="mc_date">
+                                          18
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                                                                                                              weekday                  "><div class="mc_date">
+                                          19
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                                                                                                              weekday                  "><div class="mc_date">
+                                          20
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                          has_events                                                               weekend                                       "><div class="mc_date">
+                     <a href="http://www.sundance.org/calendar/day/2014/06/21/" target="_parent">                     21
+                     </a>                     </div></td>
+
+               </tr>
+<tr>
+                  <td cellpadding="0" cellspacing="0" class="
+                                                                                                         weekend                                       "><div class="mc_date">
+                                          22
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                                                                                                              weekday                  "><div class="mc_date">
+                                          23
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                                                                                                              weekday                  "><div class="mc_date">
+                                          24
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                                                                    today                                          weekday                  "><div class="mc_date">
+                                          25
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                                                                                                              weekday                  "><div class="mc_date">
+                                          26
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                          has_events                                                                                    weekday                  "><div class="mc_date">
+                     <a href="http://www.sundance.org/calendar/day/2014/06/27/" target="_parent">                     27
+                     </a>                     </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                                                                                         weekend                                       "><div class="mc_date">
+                                          28
+                                          </div></td>
+
+               </tr>
+<tr>
+                  <td cellpadding="0" cellspacing="0" class="
+                                                                                                         weekend                                       "><div class="mc_date">
+                                          29
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                                                                                                                              weekday                  "><div class="mc_date">
+                                          30
+                                          </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                     mc_pad                                                                                                         weekday                  "><div class="mc_date">                        <strong class="middot">&middot;</strong>
+                     </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                     mc_pad                                                                                                         weekday                  "><div class="mc_date">                        <strong class="middot">&middot;</strong>
+                     </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                     mc_pad                                                                                                         weekday                  "><div class="mc_date">                        <strong class="middot">&middot;</strong>
+                     </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                     mc_pad                                                                                                         weekday                  "><div class="mc_date">                        <strong class="middot">&middot;</strong>
+                     </div></td>
+<td cellpadding="0" cellspacing="0" class="
+                     mc_pad                                                                                    weekend                                       "><div class="mc_date">                        <strong class="middot">&middot;</strong>
+                     </div></td>
+
+               </tr>
+
+            </tbody>
+         </table>
+
+      </div>
+
+</div>
+</body>
+</html>
+
+

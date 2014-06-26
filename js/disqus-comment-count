@@ -1,0 +1,7 @@
+var disqus_shortname = 'sundancefilmfestival';
+(function () {
+  var s = document.createElement('script'); s.async = true;
+  s.type = 'text/javascript';
+  s.src = '//disqus.com/forums/sundancefilmfestival/count.js';
+  (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+}());

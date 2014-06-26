@@ -1,0 +1,807 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<title>Press Releases | Sundance Film Festival</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="description" content="The official website for the Sundance Film Festival, the premier showcase for independent film held each January in Park City, Utah.">
+<meta property="og:description" content="The official website for the Sundance Film Festival, the premier showcase for independent film held each January in Park City, Utah." />
+
+<meta property="og:image" content="http://www.sundance.org/images/sharing-thumbnails/fest2014.png"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+
+<link rel="shortcut icon" href="http://www.sundance.org/favicon-festival-14.ico" type="image/x-icon" />
+<link rel="icon" href="http://www.sundance.org/favicon-festival-14.ico" type="image/x-icon" />
+<link type="text/css" rel="stylesheet" href="http://www.sundance.org/styles/festival-14/" media="screen" />
+<link type="text/css" rel="stylesheet" href="http://www.sundance.org/?css=styles/print.v.1282690611" media="print" />
+<!--[if IE 6]>
+      <link type="text/css" rel="stylesheet" href="http://www.sundance.org/styles/ie6/"/>
+    <![endif]-->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+<script type='text/javascript'>
+        var $j = jQuery.noConflict();
+    </script>
+<!--<script src="http://www.sundance.org/js/jquery.toggler.js"></script>-->
+<script type="text/javascript" src="http://www.sundance.org/js/source-20130725.js"></script>
+<script type="text/javascript" src="http://www.sundance.org/js/superfish"></script>
+<script type="text/javascript" src="http://www.sundance.org/js/hoverIntent.js"></script>
+<script type="text/javascript" src="http://www.sundance.org/js/index"></script>
+
+
+
+<script type="text/javascript">
+        // <![CDATA[
+        jQuery(document).ready(function() {
+            jQuery('ul.sf-menu').superfish({ 
+                delay: 650, // one second delay on mouseout 
+                animation: {opacity:'show'},  // fade-in and slide-down animation 
+                speed: 'fast', // faster animation speed 
+                disableHI: false, // hover intent
+                autoArrows: false, // disable generation of arrow mark-up 
+                dropShadows: false // disable drop shadows 
+            });
+
+            //Jumbotron Options
+        jQuery(function() { 
+        jQuery('#cycle')
+            .before('<div id="jumbotron-nav">')
+            .cycle({
+                fx:      'fade',
+                timeout:  4500,
+                pager:   '#jumbotron-nav'
+        });    
+        });
+        });
+        // ]]>
+    </script>
+
+<link rel="alternate" type="application/rss+xml" title="RSS" href="feed://feeds.feedburner.com/sundancefest_digest?format=xml" />
+
+
+        
+    
+<script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+<script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-4208897-5");
+        pageTracker._setDomainName(".sundance.org");
+        pageTracker._initData();
+        pageTracker._trackPageview();
+        function trackOutboundLink(link, category, action, label) {
+          try {
+            _gaq.push(['_trackEvent', category , action, label]);
+            } catch(err){}
+          setTimeout(function() {
+            document.location.href = link.href;
+            }, 100);
+        };
+    </script>
+
+
+<script type="text/javascript">
+var fb_param = {};
+fb_param.pixel_id = '6010017860363';
+fb_param.value = '0.00';
+fb_param.currency = 'USD';
+(function(){
+  var fpw = document.createElement('script');
+  fpw.async = true;
+  fpw.src = '//connect.facebook.net/en_US/fp.js';
+  var ref = document.getElementsByTagName('script')[0];
+  ref.parentNode.insertBefore(fpw, ref);
+})();
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/offsite_event.php?id=6010017860363&amp;value=0&amp;currency=USD" /></noscript>
+
+</head>
+<body  id="press" class="two-col">
+<div id="header">
+    <h1 id="tagline-link"><a href="http://www.sundance.org/festival">Jan 22 – Feb 1, 2015 Park City, Utah</a></h1>
+    <div class="container clearfix">
+
+
+        <div id="masthead">
+            <a href="http://www.sundance.org/festival/" onclick="track(this, 'Universal Header Navigation (Festival)', 'Sundance Film Festival');return false;">Sundance Film Festival 2014</a>
+        </div>
+        <div id="masthead-right">
+            <div id="institute-link">
+                <a href="http://www.sundance.org/" onclick="track(this, 'Universal Header Navigation (Festival)', 'Sundance Institute Logo');return false;">
+                    <img width="113" height="87" src="//www.sundance.org/images/festival-14/header/masthead2013-festival.png">
+                </a>
+            </div>
+            <p>
+                <a href="http://www.sundance.org/festival/film-events/submissions/" onclick="track(this, 'Universal Header Navigation (Festival)', 'Submit Your Film');return false;">Submit Your Film</a> &#8226; 
+                <a href="http://www.sundance.org/press-center/" onclick="track(this, 'Universal Header Navigation (Festival)', 'Press Center');return false;">Press Center</a> &#8226; 
+                <strong>
+                    <a href="https://donate.sundance.org/page/contribute/" id="donate-link" onclick="track(this, 'Universal Header Navigation (Festival)', 'Donate');return false;">Donate</a>
+                </strong>
+            </p>
+        </div>
+        
+        <!-- /#quick-signup -->
+        <div id="navigation" class="clearfix">
+          <ul class="sf-menu">
+            
+            <li><a href="http://www.sundance.org/" onclick="track(this, 'Top Level Navigation (Festival)', 'Institute');return false;">INSTITUTE</a> 
+        <ul>
+            <li><a href="http://www.sundance.org/about/">About</a></li>
+            <li><a href="http://www.sundance.org/programs/">Artist Programs</a></li>
+            <li><a href="http://www.sundance.org/calendar/">Events</a></li>
+            <li><a href="http://www.sundance.org/support-us/">Support Us</a></li>
+        </ul>
+	 </li>
+            <li><a href="http://www.sundance.org/festival/attend/" onclick="track(this, 'Top Level Navigation (Festival)', 'Attend');return false;">ATTEND</a> 
+        <ul>
+          <li><a href="http://www.sundance.org/festival/attend/plan-your-trip/">Plan Your Trip</a></li>
+          <li><a href="http://www.sundance.org/festival/tickets/">Tickets</a></li>
+          <li><a href="http://www.sundance.org/festival/attend/lodging/">Lodging</a></li>
+          <li><a href="http://www.sundance.org/festival/attend/ground-air-transportation/">Transportation</a></li>
+          <li><a href="http://www.sundance.org/festival/attend/getting-around/">Getting Around</a></li>
+        </ul>
+	 </li>
+            <li><a href="http://www.sundance.org/festival/tickets/" onclick="track(this, 'Top Level Navigation (Festival)', 'Get Tickets');return false;">GET TICKETS</a> 
+        <ul>
+          <li><a href="http://www.sundance.org/festival/tickets/">Overview</a></li>
+          <li><a href="http://www.sundance.org/festival/tickets/how/">How to Buy Tickets</a></li>
+          <li><a href="http://www.sundance.org/festival/tickets/compare/">Types of Tickets</a></li>
+          <li><a href="http://www.sundance.org/festival/locals/">Utah Locals</a></li>
+          <li><a href="http://www.sundance.org/festival/tickets/customer-service/">Customer Service</a></li>
+          
+        </ul>
+     </li>
+            <li><a href="http://filmguide.sundance.org/" onclick="track(this, 'Top Level Navigation (Festival)', 'Festival Program');return false;">FESTIVAL PROGRAM</a> 
+        <ul style="width:170px;">
+          <li><a href="http://filmguide.sundance.org/event/films/">Films</a></li>
+          <li><a href="http://filmguide.sundance.org/event/panels/">Panels</a></li>
+          <li><a href="http://filmguide.sundance.org/event/music/">Music</a></li>
+          <li><a href="http://filmguide.sundance.org/event/new_frontier/">New Frontier</a>
+          <li><a href="http://www.sundance.org/festival/festival-program/free-fail/">Free Fail</a></li>
+          <li><a href="http://www.sundance.org/festival/festival-program/activities/">Activities</a></li>
+          <li><a href="http://www.sundance.org/festival/festival-program/sundance-usa/">Sundance U.S.A.</a></li>
+          
+        </ul>
+     </li>
+            <li><a href="http://www.sundance.org/videos/" onclick="track(this, 'Top Level Navigation (Festival)', 'Watch');return false;">WATCH</a> 
+        <ul>
+          <li><a href="http://www.sundance.org/nowplaying/">Now Playing Near You</a></li>
+          <li><a href="http://www.sundance.org/video/playlists/meet-the-artists/">Filmmaker Interviews</a></li>
+          <li><a href="http://www.sundance.org/video/live/">Live Streams</a></li>
+          <li><a href="http://www.youtube.com/sff">YouTube Channel</a></li>
+          <li><a href="http://www.sundance.org/video/browse/">Browse Videos</a></li>
+        </ul>
+     </li>
+            <li><a href="http://www.sundance.org/festival/stories/" onclick="track(this, 'Top Level Navigation (Festival)', 'Stories');return false;">STORIES</a> 
+        <ul>
+          <li><a href="http://www.sundance.org/festivalhistory/">30 Years of the Festival!</a></li>
+          <li><a href="http://www.sundance.org/festival/stories/award-winners/">Award Winners</a></li>
+          <li><a href="http://www.sundance.org/festival/articles/">Articles</a></li>
+          <li><a href="http://www.sundance.org/festival/blog/">Blog</a></li>
+          <li><a href="http://www.sundance.org/photos/festival/2014/">Photos</a></li>
+          <li><a href="http://www.sundance.org/festival/press-releases">Press Releases</a></li>
+        </ul>
+     </li>
+            <li><a href="http://www.sundance.org/store/" id="store-link" onclick="track(this, 'Top Level Navigation (Festival)', 'Store');return false;">STORE</a> 
+      
+     </li>
+            <li><a href="http://www.sundance.org/festival/support-us/" onclick="track(this, 'Top Level Navigation (Festival)', 'Support Us');return false;">SUPPORT US</a> 
+        <ul>
+          <li><a href="http://www.sundance.org/about/">About the Institute</a></li>
+          <li><a href="http://www.sundance.org/support-us/">Donate | Join</a></li>
+          <li><a href="http://www.sundance.org/support-us/membership/">Become a Member</a></li>
+          <li><a href="http://www.sundance.org/festival/support-us/volunteering/">Volunteer</a></li>
+          <li><a href="http://www.sundance.org/festival/support-us/artist-at-the-table/">Special Events</a></li>
+          <li><a href="http://www.sundance.org/festival/support-us/foundation-giving/">Foundation Giving</a></li>
+          <li><a href="http://www.sundance.org/festival/support-us/corporate-support/">Corporate Support</a></li>
+        </ul>
+    
+            <li><a href="http://www.sundance.org/email/" id="institute-link" onclick="track(this, 'Top Level Navigation (Festival)', 'Get Updates');return false;">GET UPDATES</a> 
+        <ul style="width:121px;">
+          <li><a href="http://www.sundance.org/updates/">Email Signup</a></li>
+          <li><a href="http://www.sundance.org/updates/social-media/">Social Media</a></li>
+          <li><a href="http://www.sundance.org/store/mobile/">Mobile Apps</a></li>
+        </ul>
+     </li>
+          </ul>
+        </div>
+        <!-- /#navigation -->
+    </div>
+    <!-- /.container -->
+</div>
+<!-- /#header -->
+
+<div id="main">
+    <!--<h1 id="tagline-link"><a href="http://www.sundance.org/festival">Jan 16 – 26, 2014 Park City, Utah</a></h1>-->
+    <div class="container clearfix">
+        
+        <div id="content"  class="section">
+<div class="breadcrumb"><a href="http://www.sundance.org/festival/press/">Press Center</a> <img src="/images/wrapper/section-arrow.png" /> <span id="current-page">Press Releases</span></div>
+<div id="section-nav">
+	<h2>In This Section</h2>
+	
+        <ul>
+            <li><a href="http://www.sundance.org/festival/press/"                    >Festival Press</a></li>
+            <li><a href="http://my.sundance.org/applications/press/">Press Accreditation</a></li>
+            <li><a href="http://www.sundance.org/festival/press/festival-documents/"  >Festival Documents</a></li>
+            <li><a href="http://www.sundance.org/festival/press-releases"             >Press Releases</a></li>
+            <li><a href="http://press.sundance.org/press/"          >Images &amp; Publicity Materials</a></li>
+            <li><a href="http://www.sundance.org/festival/press/press-center-faq/"    >Press FAQ</a></li>
+            <li><a href="http://www.sundance.org/press-center/"                     >Institute Press Center</a></li>
+            <li><a href="http://www.sundance.org/filmforward/press/"                  >Film Forward Press</a></li>
+            
+        </ul>
+    
+</div>
+<!-- /#section-nav -->
+
+<div id="pr-index" class="base entries">
+	<h1 class="page-title">Press Releases</h1>
+	
+		<div class="entry clearfix">
+			<a href="http://www.sundance.org/festival/release/sundance-institute-to-host-4-day-summer-festival-in-downtown-los-angeles/">
+				<img src="/images/sharing-thumbnails/next14-sosh.png" alt="Sundance Institute to Host  4-day Summer Festival in Downtown Los Angeles" width="120" alt="Sundance Institute to Host  4-day Summer Festival in Downtown Los Angeles" />
+			</a>
+			<div class="summary">
+				<h3><a href="http://www.sundance.org/festival/release/sundance-institute-to-host-4-day-summer-festival-in-downtown-los-angeles/">Sundance Institute to Host 4-day Summer Festival in Downtown Los Angeles</a></h3>
+				<p class="date">May 20, 2014</p>
+				<p class="non-headline"><p>Film and Music to be Featured at  <em>Sundance NEXT FEST</em>, Aug. 8-10 at Theatre at Ace Hotel </p>
+<p>Kickoff Event Aug. 7 at Cinespia at the Hollywood Forever Cemetery</p></p>			</div>
+		</div>
+		<!-- /.entry -->
+		
+	
+		<div class="entry clearfix">
+			<a href="http://www.sundance.org/festival/release/sundance-institute-brings-86-million-to-utah/">
+				<img src="/images/sharing-thumbnails/20140515EconomicImpact.jpg" alt="Sundance Institute Brings $86.4 Million to Utah with 2014 Sundance Film Festival" width="120" alt="Sundance Institute Brings $86.4 Million to Utah with 2014 Sundance Film Festival" />
+			</a>
+			<div class="summary">
+				<h3><a href="http://www.sundance.org/festival/release/sundance-institute-brings-86-million-to-utah/">Sundance Institute Brings $86.4 Million to Utah with 2014 Sundance Film Festival</a></h3>
+				<p class="date">May 15, 2014</p>
+				<p class="non-headline">10-Day Event Generates $6.9 Million in State and Local Tax Revenue, Supports 1,434 Jobs, Attracts Worldwide Media Exposure Valued at $65.1 Million</p>			</div>
+		</div>
+		<!-- /.entry -->
+		
+	
+		<div class="entry clearfix">
+			<a href="http://www.sundance.org/festival/release/sundance-london-short-film-competition-winners-announced/">
+				<img src="/images/sharing-thumbnails/Russian-Roulette-Still-3.jpg" alt="Sundance London Short Film Competition Winners Announced" width="120" alt="Sundance London Short Film Competition Winners Announced" />
+			</a>
+			<div class="summary">
+				<h3><a href="http://www.sundance.org/festival/release/sundance-london-short-film-competition-winners-announced/">Sundance London Short Film Competition Winners Announced</a></h3>
+				<p class="date">Apr 15, 2014</p>
+				<p class="non-headline"><p><em>Russian Roulette</em> by Ben Aston wins Official Selection Award and will screen as part of Sundance London official programme</p>
+<p><em>Shadows of Time</em> by Sambit Banerjee wins Community Choice Award</p></p>			</div>
+		</div>
+		<!-- /.entry -->
+		
+	
+		<div class="entry clearfix">
+			<a href="http://www.sundance.org/festival/release/sundance-london-announces-free-talks-screenings-events-and-music/">
+				<img src="/images/sharing-thumbnails/sdl14-20140408-sosh.jpg" alt="Sundance London Announces FREE Talks, Screenings, Events and Music Performances" width="120" alt="Sundance London Announces FREE Talks, Screenings, Events and Music Performances" />
+			</a>
+			<div class="summary">
+				<h3><a href="http://www.sundance.org/festival/release/sundance-london-announces-free-talks-screenings-events-and-music/">Sundance London Announces FREE Talks, Screenings, Events and Music Performances</a></h3>
+				<p class="date">Apr 8, 2014</p>
+				<p class="non-headline"><p>Events with Emmy Award-winning comedian David Cross and David Wain and music from Scott Matthews among programme for the Festival Hub at Brooklyn Bowl in The O2</p>
+<p>International Premiere of five new short films to launch the Sundance Institute Short Film Challenge</p></p>			</div>
+		</div>
+		<!-- /.entry -->
+		
+	
+		<div class="entry clearfix">
+			<a href="http://www.sundance.org/festival/release/sundance-institute-tours-package-of-short-films/">
+				<img src="/images/sharing-thumbnails/20140407ArtHouseShorts.jpg" alt="Sundance Institute Tours Package of Short Films from 2014 Sundance Film Festival to Theaters Across" width="120" alt="Sundance Institute Tours Package of Short Films from 2014 Sundance Film Festival to Theaters Across" />
+			</a>
+			<div class="summary">
+				<h3><a href="http://www.sundance.org/festival/release/sundance-institute-tours-package-of-short-films/">Sundance Institute Tours Package of Short Films from 2014 Sundance Film Festival to Theaters Across USA</a></h3>
+				<p class="date">Apr 7, 2014</p>
+							</div>
+		</div>
+		<!-- /.entry -->
+		
+	
+		<div class="entry clearfix">
+			<a href="http://www.sundance.org/festival/release/sundance-london-adds-premiere/">
+				<img src="/images/sharing-thumbnails/20140328SDLAdditions_sosh.jpg" alt="Sundance London adds International Premiere of The One I Love to Feature Film Programme" width="120" alt="Sundance London adds International Premiere of The One I Love to Feature Film Programme" />
+			</a>
+			<div class="summary">
+				<h3><a href="http://www.sundance.org/festival/release/sundance-london-adds-premiere/">Sundance London adds International Premiere of <em>The One I Love</em> to Feature Film Programme</a></h3>
+				<p class="date">Mar 28, 2014</p>
+				<p class="non-headline">Tickets go on sale to the public today at <a href="http://www.sundance-london.com">sundance-london.com</a></p>			</div>
+		</div>
+		<!-- /.entry -->
+		
+	
+		<div class="entry clearfix">
+			<a href="http://www.sundance.org/festival/release/sundance-london-2014-programme-announced/">
+				<img src="/images/sharing-thumbnails/SDL14-film-annc-sosh.jpg" alt="Sundance London 2014 Programme Announced" width="120" alt="Sundance London 2014 Programme Announced" />
+			</a>
+			<div class="summary">
+				<h3><a href="http://www.sundance.org/festival/release/sundance-london-2014-programme-announced/">Sundance London Programme Announced: Feature Films, Special Events, Short Films and Panels at the O2, 25-27 April</a></h3>
+				<p class="date">Mar 24, 2014</p>
+				<p class="non-headline"><p>Sundance London Programme Announced: Feature Films, Special Events, Short Films and Panels at the O2, 25-27 April</p>
+<p>Ticket packages now on sale at <a href="http://www.sundance-london.com" target="_blank">sundance-london.com</a>; Individual tickets on sale Friday 28 March</p></p>			</div>
+		</div>
+		<!-- /.entry -->
+		
+	
+		<div class="entry clearfix">
+			<a href="http://www.sundance.org/festival/release/SDL14-to-screen-three-of-the-all-time-most-celebrated-films/">
+				<img src="/images/sharing-thumbnails/Web_Winters_Bone_filmstill-3_Photo-by-SebastianMlynarski-7481-resized.jpg" alt="Sundance London to Screen Three of the All-Time Most Celebrated Films from the Sundance Film Festiva" width="120" alt="Sundance London to Screen Three of the All-Time Most Celebrated Films from the Sundance Film Festiva" />
+			</a>
+			<div class="summary">
+				<h3><a href="http://www.sundance.org/festival/release/SDL14-to-screen-three-of-the-all-time-most-celebrated-films/">Sundance London to Screen Three of the All-Time Most Celebrated Films from the Sundance Film Festival</a></h3>
+				<p class="date">Feb 27, 2014</p>
+				<p class="non-headline"><p>&lsquo;From the Collection&rsquo; Screenings  to be <em>Memento</em>, <em>Reservoir Dogs</em> and <em>Winter&rsquo;s  Bone</em>, in association with <em>Empire</em> magazine</p>
+<p>Event to Take Place 25-27 April; Ticket  Packages Now on Sale at <a href="http://www.sundance-london.com/">sundance-london.com</a> </p></p>			</div>
+		</div>
+		<!-- /.entry -->
+		
+	
+		<div class="entry clearfix">
+			<a href="http://www.sundance.org/festival/release/sundance-london-announces-first-music-act-for-2014/">
+				<img src="/images/sharing-thumbnails/sdl14-sosh.jpg" alt="Sundance London Announces First Music Act For 2014" width="120" alt="Sundance London Announces First Music Act For 2014" />
+			</a>
+			<div class="summary">
+				<h3><a href="http://www.sundance.org/festival/release/sundance-london-announces-first-music-act-for-2014/">Sundance London Announces First Music Act For 2014</a></h3>
+				<p class="date">Feb 24, 2014</p>
+				<p class="non-headline"><p >Archive to perform  live and present world  premiere of their film, <em>Axiom</em></p>
+<p >Tickets on Sale Friday 28 February 9.00am at <a href="http://sundance-london.com" target="_blank">sundance-london.com</a></p></p>			</div>
+		</div>
+		<!-- /.entry -->
+		
+	
+		<div class="entry clearfix">
+			<a href="http://www.sundance.org/festival/release/2014-sundance-film-festival-announces-feature-film-awards/">
+				<img src="/images/sharing-thumbnails/sff14-featurefilm-awards.jpg" alt="2014-sundance-film-festival-announces-feature-film-awards" width="120" alt="2014-sundance-film-festival-announces-feature-film-awards" />
+			</a>
+			<div class="summary">
+				<h3><a href="http://www.sundance.org/festival/release/2014-sundance-film-festival-announces-feature-film-awards/">2014 Sundance Film Festival Announces Feature Film Awards</a></h3>
+				<p class="date">Jan 25, 2014</p>
+				<p class="non-headline"><p><em>Rich Hill</em>, <em>Whiplash</em>, <em>Return to Homs</em> and <em>To Kill a Man</em> Earn  Grand Jury Prizes</p>
+<p>Audience  Favorites Include <em>Alive Inside: A Story of Music &amp; Memory</em>, <em>Whiplash</em>, <em>The Green Prince</em>, <em>Difret</em> and<em> Imperial Dreams</em></p></p>			</div>
+		</div>
+		<!-- /.entry -->
+		
+	
+		<div class="entry clearfix">
+			<a href="http://www.sundance.org/festival/release/2014-sundance-film-festival-announces-short-film-awards/">
+				<img src="/images/sharing-thumbnails/20140121-ShortsAwards.jpg" alt="2014 Sundance Film Festival Announces Short Film Awards" width="120" alt="2014 Sundance Film Festival Announces Short Film Awards" />
+			</a>
+			<div class="summary">
+				<h3><a href="http://www.sundance.org/festival/release/2014-sundance-film-festival-announces-short-film-awards/">2014 Sundance Film Festival Announces Short Film Awards</a></h3>
+				<p class="date">Jan 21, 2014</p>
+				<p class="non-headline"><em>Of God and Dogs</em> Wins Short Film Grand Jury Prize</p>			</div>
+		</div>
+		<!-- /.entry -->
+		
+	
+		<div class="entry clearfix">
+			<a href="http://www.sundance.org/festival/release/2014-festival-global-filmmaking-award-announced/">
+				<img src="http://www.sundance.org/images/press-releases/sff-logo-120x120.png" alt="Sundance Institute | Mahindra Global Filmmaking Award 2014 Recipients Announced" width="120" alt="Sundance Institute | Mahindra Global Filmmaking Award 2014 Recipients Announced" />
+			</a>
+			<div class="summary">
+				<h3><a href="http://www.sundance.org/festival/release/2014-festival-global-filmmaking-award-announced/">Sundance Institute | Mahindra Global Filmmaking Award 2014 Recipients Announced</a></h3>
+				<p class="date">Jan 21, 2014</p>
+				<p class="non-headline">Emerging Artists from Vietnam/UK, Australia, Denmark and India Selected for their Visionary Projects</p>			</div>
+		</div>
+		<!-- /.entry -->
+		
+	
+		<div class="entry clearfix">
+			<a href="http://www.sundance.org/festival/release/sundance-institute-and-gates-foundation-announce-short-film-challenge/">
+				<img src="/images/sharing-thumbnails/Sundance_BMGF_Kombit_02.jpg" alt="Sundance Institute Announces Short Film Challenge and Invites Global Storytellers to Put a Human Fac" width="120" alt="Sundance Institute Announces Short Film Challenge and Invites Global Storytellers to Put a Human Fac" />
+			</a>
+			<div class="summary">
+				<h3><a href="http://www.sundance.org/festival/release/sundance-institute-and-gates-foundation-announce-short-film-challenge/">Sundance Institute Announces Short Film Challenge and Invites Global Storytellers to Put a Human Face on Extreme Poverty</a></h3>
+				<p class="date">Jan 21, 2014</p>
+				<p class="non-headline"><p style="margin-top:0">First Five Short Films Launch at Private Event at 2014 Sundance Film Festival, Will Premiere on Digital Media Platforms Later This Year</p>
+<p>Worldwide &ldquo;Open Call&rdquo; for Entries to Create Documentary or Narrative Short Films; Five Selected Winners will Debut their Films at 2015 Sundance Film Festival</p>
+<p>Program supported by the Bill &amp; Melinda Gates Foundation</p></p>			</div>
+		</div>
+		<!-- /.entry -->
+		
+	
+		<div class="entry clearfix">
+			<a href="http://www.sundance.org/festival/release/alfred-p-sloan-feature-film-prize-awarded-at-2014-sundance-film-festival/">
+				<img src="/images/sharing-thumbnails/IOrigins_still2_MichaelPitt__byJelenaVukotic.jpg" alt="Alfred P. Sloan Feature Film Prize Awarded to I Origins at 2014 Sundance Film Festival" width="120" alt="Alfred P. Sloan Feature Film Prize Awarded to I Origins at 2014 Sundance Film Festival" />
+			</a>
+			<div class="summary">
+				<h3><a href="http://www.sundance.org/festival/release/alfred-p-sloan-feature-film-prize-awarded-at-2014-sundance-film-festival/">Alfred P. Sloan Feature Film Prize Awarded to <em>I Origins</em> at 2014 Sundance Film  Festival</a></h3>
+				<p class="date">Jan 21, 2014</p>
+				<p class="non-headline"><em>The  Buried Life</em>, by Joan Stein Schimke and Averie Storck, Receives Sundance Institute / Alfred P. Sloan Lab Fellowship</p>			</div>
+		</div>
+		<!-- /.entry -->
+		
+	
+		<div class="entry clearfix">
+			<a href="http://www.sundance.org/festival/release/2014-festival-celebration-music-in-film/">
+				<img src="/images/sharing-thumbnails/20140114MusicinFilmSOSH.jpg" alt="Music Takes Center Stage at 2014 Sundance Film Festival" width="120" alt="Music Takes Center Stage at 2014 Sundance Film Festival" />
+			</a>
+			<div class="summary">
+				<h3><a href="http://www.sundance.org/festival/release/2014-festival-celebration-music-in-film/">Music Takes Center Stage at 2014 Sundance Film Festival</a></h3>
+				<p class="date">Jan 14, 2014</p>
+				<p class="non-headline"><p>&lsquo;A Celebration of Music in Film&rsquo; Event on January 19 Headlined by Talent from <em>Low Down</em>: &#160;A tribute to jazz legend Joe Albany featuring Red Hot Chili Peppers&rsquo; Flea, composer Ohad Talmor with a reading by Elle Fanning; The Fela! Band and Rae Spoon Also to Perform</p>
+<p>Belle &amp; Sebastian set for Festival&rsquo;s Music Caf&#233; on January 20, <br>
+  presented by Airbnb and Sundance Institute</p></p>			</div>
+		</div>
+		<!-- /.entry -->
+		
+	
+		<div class="entry clearfix">
+			<a href="http://www.sundance.org/festival/release/2014-sundance-film-festival-will-preview-boyhood-from-richard-linklater/">
+				<img src="/images/sharing-thumbnails/Boyhood_still1_EllarColtrane_400x400.jpg" alt="2014 Sundance Film Festival to Host Special Preview Screenings of  Boyhood by Richard Linklater" width="120" alt="2014 Sundance Film Festival to Host Special Preview Screenings of  Boyhood by Richard Linklater" />
+			</a>
+			<div class="summary">
+				<h3><a href="http://www.sundance.org/festival/release/2014-sundance-film-festival-will-preview-boyhood-from-richard-linklater/">2014 Sundance Film Festival to Host Special Preview Screenings of <i>Boyhood</i> by Richard Linklater</a></h3>
+				<p class="date">Jan 13, 2014</p>
+				<p class="non-headline">30<sup>th</sup> Anniversary of the Sundance Film Festival</p>			</div>
+		</div>
+		<!-- /.entry -->
+		
+	
+		<div class="entry clearfix">
+			<a href="http://www.sundance.org/festival/release/2014-festival-jury-awards-hosts-announced/">
+				<img src="http://www.sundance.org/images/press-releases/sff-logo-120x120.png" alt="Sundance Institute Announces Jury Members for 2014 Sundance Film Festival" width="120" alt="Sundance Institute Announces Jury Members for 2014 Sundance Film Festival" />
+			</a>
+			<div class="summary">
+				<h3><a href="http://www.sundance.org/festival/release/2014-festival-jury-awards-hosts-announced/">Sundance Institute Announces Jury Members for 2014 Sundance Film Festival</a></h3>
+				<p class="date">Jan 9, 2014</p>
+				<p class="non-headline">Nick Offerman and Megan Mullally to Host Feature Film Awards Ceremony, Livestreamed on January 25 at <a href="http://www.sundance.org/live">sundance.org/live</a>
+</p>			</div>
+		</div>
+		<!-- /.entry -->
+		
+	
+		<div class="entry clearfix">
+			<a href="http://www.sundance.org/festival/release/2014-festival-lambert-and-stamp-announced/">
+				<img src="/images/sharing-thumbnails/20140108LambertandStamp.jpg" alt="LAMBERT &amp; STAMP Documentary Selected for 2014 Sundance Film Festival and Sundance London" width="120" alt="LAMBERT &amp; STAMP Documentary Selected for 2014 Sundance Film Festival and Sundance London" />
+			</a>
+			<div class="summary">
+				<h3><a href="http://www.sundance.org/festival/release/2014-festival-lambert-and-stamp-announced/"><em>LAMBERT & STAMP</em> Documentary Selected for 2014 Sundance Film Festival and Sundance London</a></h3>
+				<p class="date">Jan 8, 2014</p>
+				<p class="non-headline">First Film Announced for 2014 Sundance London Programme <br />
+30th Anniversary of the Sundance Film Festival</p>			</div>
+		</div>
+		<!-- /.entry -->
+		
+	
+		<div class="entry clearfix">
+			<a href="http://www.sundance.org/festival/release/2014-festival-wish-i-was-here-clerks-added-to-premieres/">
+				<img src="/images/sharing-thumbnails/20131218BraffWishIWasHere.jpg" alt="2014 Festival Adds Wish I Was Here by Zach Braff to Premieres" width="120" alt="2014 Festival Adds Wish I Was Here by Zach Braff to Premieres" />
+			</a>
+			<div class="summary">
+				<h3><a href="http://www.sundance.org/festival/release/2014-festival-wish-i-was-here-clerks-added-to-premieres/">2014 Sundance Film Festival Adds <em>Wish I Was Here</em> by Zach Braff to Premieres</a></h3>
+				<p class="date">Dec 18, 2013</p>
+				<p class="non-headline"><p>20th Anniversary of <em>Clerks</em> to be a &#8216;From the Collection&#8217; Midnight Screening</p>
+<p>30th Anniversary of the Sundance Film Festival</p></p>			</div>
+		</div>
+		<!-- /.entry -->
+		
+	
+		<div class="entry clearfix">
+			<a href="http://www.sundance.org/festival/release/2014-sundance-film-festival-usa-films-announced/">
+				<img src="/images/sharing-thumbnails/CampXRay-sosh.jpg" alt="2014 sundance usa films announced" width="120" alt="2014 sundance usa films announced" />
+			</a>
+			<div class="summary">
+				<h3><a href="http://www.sundance.org/festival/release/2014-sundance-film-festival-usa-films-announced/">Sundance Institute Announces Nine Films and Art House Theaters for Sundance Film Festival USA on January 30</a></h3>
+				<p class="date">Dec 12, 2013</p>
+				<p class="non-headline"><span style="text-align:center;">Ann Arbor, MI | Boston, MA | Chicago, IL | Houston, TX<br>
+Nashville, TN | Orlando, FL | San Francisco, CA | Seattle, WA | Tucson, AZ</span></p>			</div>
+		</div>
+		<!-- /.entry -->
+		
+	
+							<p class="paginate">Page 1 of 7 pages &nbsp;<strong>1</strong>&nbsp;<a href="http://www.sundance.org/festival/press-releases/P20/">2</a>&nbsp;<a href="http://www.sundance.org/festival/press-releases/P40/">3</a>&nbsp;<a href="http://www.sundance.org/festival/press-releases/P20/">&gt;</a>&nbsp;&nbsp;<a href="http://www.sundance.org/festival/press-releases/P120/">Last &raquo;</a></p>
+					
+</div>
+<!-- /.entries -->
+      </div>
+      <!-- /#content -->
+
+      
+                
+          <div id="sidebar">
+    
+
+
+
+	<div id="videos" class="module">
+		<h2>
+			<a href="/video">Latest Videos</a>
+		</h2>
+		
+			<div class="video" onclick="window.location='/video/ten-days-of-different-2014'">
+				<a href="/video/ten-days-of-different-2014"><span></span>
+					<img src="/images/videos/thumbnails/_2014_ZipandZapandtheMarbleGan_LeahPeasley_25.png" alt="Ten Days Of Different (2014)" title="Ten Days Of Different (2014)" border="0" />
+				</a>
+				<h5>
+					
+						<a href="/video/playlists/film-festival">Sundance Film Festival</a>
+				</h5>
+				<h4>
+					<a href="/video/ten-days-of-different-2014">
+						Ten Days Of Different					</a>
+				</h4>
+			</div>
+		
+			<div class="video" onclick="window.location='/video/2014-sundance-film-festival-ben-kasulke-on-cinematography'">
+				<a href="/video/2014-sundance-film-festival-ben-kasulke-on-cinematography"><span></span>
+					<img src="/images/videos/thumbnails/ben-kasulke-cinematographer.jpg" alt="2014 Sundance Film Festival: Ben Kasulke on Cinematography" title="2014 Sundance Film Festival: Ben Kasulke on Cinematography" border="0" />
+				</a>
+				<h5>
+					
+						<a href="/video/playlists/meet-the-artists">Meet the Artists</a>
+				</h5>
+				<h4>
+					<a href="/video/2014-sundance-film-festival-ben-kasulke-on-cinematography">
+						SFF14: Ben Kasulke on Cinematography 					</a>
+				</h4>
+			</div>
+		
+			<div class="video" onclick="window.location='/video/sff14-premiere-the-case-against-8'">
+				<a href="/video/sff14-premiere-the-case-against-8"><span></span>
+					<img src="/images/videos/thumbnails/case-against-8-premiere.jpg" alt="SFF14 Premiere: The Case Against 8" title="SFF14 Premiere: The Case Against 8" border="0" />
+				</a>
+				<h5>
+					
+						<a href="/video/playlists/film-festival">Sundance Film Festival</a>
+				</h5>
+				<h4>
+					<a href="/video/sff14-premiere-the-case-against-8">
+						SFF14 Premiere: <em>The Case Against 8</em>					</a>
+				</h4>
+			</div>
+		
+		<ul>
+			<li onclick="window.location='/video/'"> <a href="/video/">More...</a> </li>
+		</ul>
+	</div>
+	<div id="tweets" class="module"><h2>Instant Updates</h2>
+<div style="margin:0 8px 0 8px;">
+<a class="twitter-timeline" data-dnt="true" href="https://twitter.com/sundancefest" 
+data-widget-id="364866445995294720"
+data-screen-name="sundancefest"
+   data-show-replies="false"
+data-theme="light"
+data-link-color="#aaaaaa"
+data-related="sundancefestnow,filmforward,sundancefest"
+data-chrome="nofooter transparent noheader noborders noscrollbar"
+data-tweet-limit="1"
+width="204" height="700"
+lang="EN"
+
+>Tweets by @sundancefest</a>
+<script>!function(d,s,id){
+	var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';
+	if(!d.getElementById(id)){js=d.createElement(s);
+	js.id=id;
+	js.src=p+"://platform.twitter.com/widgets.js";
+	fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script></div>
+
+</div>
+<div class="module"> </div>
+
+
+
+
+	
+    <div id="connect" class="module">
+        <h2>Connect</h2>
+        <ul class="clearfix">
+            <li class="toprow"><a href="http://www.facebook.com/sundance/" target="_blank"><img src="http://www.sundance.org//images/wrapper/facebook-gray.gif" width="32" height="32" alt="Facebook" /></a></li>
+            <li class="toprow"><a href="http://www.sundance.org/twitter/" target="_blank"><img src="http://www.sundance.org//images/wrapper/twitter-gray.gif" width="32" height="32" alt="Twitter" /></a></li>
+            <li class="toprow"><a href="http://www.youtube.com/sff" target="_blank"><img src="http://www.sundance.org//images/wrapper/youtube-gray.gif" width="32" height="32" alt="YouTube" /></a></li>
+            <li class="toprow"><a href="http://sundancearchives.tumblr.com/" target="_blank"><img src="http://www.sundance.org//images/wrapper/tumblr-gray.gif" width="32" height="32" alt="Tumblr" /></a></li>
+            <li class="toprow"><a href="http://pinterest.com/sundancefest/"><img src="http://www.sundance.org//images/wrapper/pinterest-gray.gif" width="32" height="32" alt="Pinterest" /></a></li>
+            <li><a href="http://instagram.com/sundanceinstitute" target="_blank"><img src="http://www.sundance.org//images/wrapper/instagram-gray.gif" width="32" height="32" alt="Instagram" /></a></li>
+            <li><a href="http://www.kickstarter.com/sundanceinstitute" target="_blank"><img src="http://www.sundance.org//images/wrapper/kickstarter-gray.gif" width="32" height="32" alt="Kickstarter" /></a></li>
+            <li><a href="https://plus.google.com/109785996242709447966/posts" target="_blank"><img src="http://www.sundance.org//images/wrapper/googleplus-gray.gif" width="32" height="32" alt="Google+" /></a></li>
+            <li><a href="http://www.sundance.org/updates" target="_blank"><img src="http://www.sundance.org//images/wrapper/email-gray.gif" width="32" height="32" alt="Email Updates" /></a></li>
+            <li><a href="http://www.sundance.org/stories/rss-feeds"><img src="http://www.sundance.org//images/wrapper/rss-gray.gif" width="32" height="32" alt="RSS Feed" /></a></li>
+        </ul>
+    </div>
+    <!-- /#connect -->
+
+	
+            
+
+            <div class="module promo-tile">
+                <a href="http://www.sundance.org/store/"><img src="http://www.sundance.org/images/promos/tiles/FEST-promotileFestMerch.png" alt="shop festival merch" /></a>
+            </div>
+            
+
+            <div class="module promo-tile">
+                <a href="http://www.sundance.org/festivalhistory/"><img src="http://www.sundance.org/images/promos/tiles/FEST-promotile-30yrs.jpg" alt="30 years of the sundance film festival" /></a>
+            </div>
+            
+
+</div>
+            </div>
+</div>
+<!-- /#main -->
+
+<div id="footer-container">
+  <div id="footer">
+    
+    <div id="festival-info">
+      <h3><a href="http://www.sundance.org/festival/" onClick="track(this, 'Footer Navigation (Festival)', 'Sundance Film Festival');return false;">Film Festival</a></h3>
+      <div class="col">
+        <h4><a href="http://www.sundance.org/festival/about/" onClick="track(this, 'Footer Navigation (Festival)', 'Festival About');return false;">ABOUT</a></h4>
+        
+        <ul>
+            <li><a href="http://www.sundance.org/festival/about/festival-history/"     >Festival History</a></li>
+            <li><a href="http://www.sundance.org/festival/about/programming-team/"     >Programming Team</a></li>
+            <li><a href="http://www.sundance.org/festival/about/festival-jury/"        >Jury</a></li>
+            <li><a href="http://www.sundance.org/festival/about/corporate-support/"    >Sponsors</a></li>
+            <li><a href="http://www.sundance.org/festival/about/festival-jobs/"        >Festival Jobs</a></li>
+            <li><a href="http://www.sundance.org/festival/about/art-house-project/"    >Art House Project</a></li>
+            <li><a href="http://www.sundance.org/festival/about/sustainability/"       >Sustainability</a></li>
+            <li><a href="http://www.sundance.org/festival/about/ada-accessibility/"    >Accessibility</a></li>
+            <li><a href="http://history.sundance.org/"               >Archives</a></li>
+        </ul>
+    
+      </div>
+      <div class="col">
+        <h4><a href="http://www.sundance.org/festival/press/" onClick="track(this, 'Footer Navigation (Festival)', 'Press');return false;">PRESS</a></h4>
+        
+        <ul>
+            <li><a href="http://www.sundance.org/festival/press/"                    >Festival Press</a></li>
+            <li><a href="http://my.sundance.org/applications/press/">Press Accreditation</a></li>
+            <li><a href="http://www.sundance.org/festival/press/festival-documents/"  >Festival Documents</a></li>
+            <li><a href="http://www.sundance.org/festival/press-releases"             >Press Releases</a></li>
+            <li><a href="http://press.sundance.org/press/"          >Images &amp; Publicity Materials</a></li>
+            <li><a href="http://www.sundance.org/festival/press/press-center-faq/"    >Press FAQ</a></li>
+            <li><a href="http://www.sundance.org/press-center/"                     >Institute Press Center</a></li>
+            <li><a href="http://www.sundance.org/filmforward/press/"                  >Film Forward Press</a></li>
+            
+        </ul>
+    
+      </div>
+      <div class="col">
+        <h4><a href="http://www.sundance.org/festival/industry/" onClick="track(this, 'Footer Navigation (Festival)', 'Industry');return false;">INDUSTRY</a></h4>
+        
+        <ul>
+            <li><a href="http://www.sundance.org/festival/industry/"                                       >Overview</a></li>
+            <li><a href="http://www.sundance.org/festival/industry/sio-contacts/"                          >Contacts</a></li>
+            <li><a href="http://www.sundance.org/festival/industry/sio-services/"                          >Services</a></li>
+            <li style="display:none;"><a href="http://www.sundance.org/festival/industry/sio-sales-agent/" >Services</a></li>
+            
+        </ul>
+    
+        <h4><a href="http://www.sundance.org/festival/volunteer/" onClick="track(this, 'Footer Navigation (Festival)', 'Volunteer');return false;">VOLUNTEER</a></h4>
+        
+        <ul>
+            <li><a href="http://www.sundance.org/festival/volunteer/"                  >Overview</a></li>
+            <li><a href="http://www.sundance.org/festival/volunteer/program-details/"  >Program Details</a></li>
+            <li><a href="http://www.sundance.org/festival/volunteer/alumni-volunteers/">Alumni Volunteers</a></li>
+            <li><a href="http://www.sundance.org/festival/volunteer/volunteers-faq/"   >FAQ</a></li>
+        </ul>
+    
+      </div>
+      <div class="col">
+        <h4><a href="http://www.sundance.org/festival/students/" onClick="track(this, 'Footer Navigation (Festival)', 'Students');return false;">STUDENTS</a></h4>
+        
+        <ul>
+            <li><a href="http://www.sundance.org/festival/students/"                         >Program Details</a></li>
+            <li><a href="http://www.sundance.org/festival/students/#utahhighschoolscreening">Utah High School Screenings</a></li>
+            <li><a href="http://www.sundance.org/festival/students/#utahstudentpackage"     >Utah Student Package</a></li>
+            <li><a href="http://www.sundance.org/festival/students/#nationalunistudents"    >University Students</a></li>
+            <li><a href="http://www.sundance.org/festival/students/#volunteer"              >Volunteer Opportunities</a></li>
+        </ul>
+    
+        <h4><a href="http://www.sundance.org/festival/alumni/" onClick="track(this, 'Footer Navigation (Festival)', 'Alumni');return false;">ALUMNI</a></h4>
+        
+        <ul>
+            <li><a href="http://www.sundance.org/festival/alumni/alumni-overview/"               >Overview</a></li>
+            <li><a href="http://www.sundance.org/festival/alumni/alumni-tickets-and-credentials/">Tickets &amp; Credentials</a></li>
+            <li><a href="http://www.sundance.org/festival/alumni/alumni-eligibility/"            >Eligibility</a></li>
+            <li><a href="http://www.sundance.org/festival/alumni/alumni-contact/"                >Contact</a></li>
+        </ul>
+    
+      </div>
+      
+    </div>
+    <div id="institute-info">
+        <h3><a href="http://www.sundance.org/" onClick="track(this, 'Footer Navigation', 'Sundance Institute');return false;">Sundance Institute</a></h3>
+        <h4><a href="http://www.sundance.org/" onClick="track(this, 'Footer Navigation', 'Sundance Film Festival');return false;">Institute Home</a></h4>
+        <ul>
+                <li><a href="http://www.sundance.org/">Homepage</a></li>
+                <li><a href="http://www.sundance.org/about/">About</a></li>
+                <li><a href="http://www.sundance.org/programs/">Artist Programs</a></li>
+                <li><a href="http://www.sundance.org/events/">Events</a></li>
+                <li><a href="http://www.sundance.org/stories/">Stories</a></li>
+                <li><a href="http://www.sundance.org/videos/">Watch</a></li>
+                <li><a href="http://www.sundance.org/archives/">Archives</a></li>
+                <li><a href="http://www.sundance.org/press-center/">Press</a></li>
+                <li><a href="http://www.sundance.org/support-us/">Support Us</a></li>
+</ul>
+    </div>
+    <div id="sponsors">
+      <div id="sponsors-inner">
+        <h3>Presenting Sponsors</h3>
+        <div id="logos">
+          <ul>
+            
+            <li>
+              <a href="http://www.hp.com/" target="_blank" onClick="track(this, 'Sponsor (Festival Footer)', 'Hewlett Packard');return false;">
+                <img src="http://www.sundance.org/images/wrapper/sponsors/hp-offblack.png" alt="Hewlett Packard" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.acura.com/" target="_blank" onClick="track(this, 'Sponsor (Festival Footer)', 'Acura');return false;">
+                <img src="http://www.sundance.org/images/wrapper/sponsors/acura-transparent.png" alt="Acura" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.sundancechannel.com/" target="_blank" onClick="track(this, 'Sponsor (Festival Footer)', 'Sundance Channel');return false;">
+                <img src="http://www.sundance.org/images/wrapper/sponsors/sundance-channel-offblack.png" alt="Sundance Channel" />
+              </a>
+            </li>
+            <li>
+              <a href="http://www.chasesapphire.com/" target="_blank" onClick="track(this, 'Sponsor (Festival Footer)', 'Chase Sapphire');return false;">
+                <img id="furthest-right-image" src="http://www.sundance.org/images/wrapper/sponsors/chase-sapphire-preferred-offblack.png" alt="Chase Sapphire" />
+              </a>
+            </li>
+          </ul>
+          <span></span> 
+        </div>
+      </div>
+    </div>
+  </div>
+  <br>
+  <div id="lower-footer" class="clearfix">
+    <p id="mission-statement">
+      THE SUNDANCE FILM FESTIVAL IS ONE PROGRAM OF SUNDANCE INSTITUTE, A NONPROFIT ORGANIZATION THAT
+      DISCOVERS AND SUPPORTS INDEPENDENT FILM AND THEATRE ARTISTS FROM THE U.S. AND AROUND THE WORLD
+      AND INTRODUCES AUDIENCES TO THEIR NEW WORK.
+    </p>
+    <p id="copyright-etc">
+      &copy;2000&ndash;2014 Sundance Institute. Sundance Film Festival<span class="superscript">&reg;</span> and Sundance Institute<span class="superscript">&reg;</span> are exclusive trademarks of Sundance Institute<span class="superscript">&reg;</span>. All rights reserved.
+      <br />
+      <span id="last-line">
+        <a href="http://www.sundance.org/about/contacts/">Contact Us</a> &#8226;  
+        <a href="http://www.sundance.org/festival/festival-program/submissions/" class="highlight">Submit Your Film</a> &#8226;  
+        <a href="http://www.sundance.org/privacy-policy/">Privacy Policy</a> &#8226;  <a href="http://www.sundance.org/festival/support-us/advertise/">Advertise with Us</a>
+      </span>
+    </p>
+  </div>
+  <!-- /#lower-footer --> 
+</div>
+<!-- /#footer --> 
+
+<script type="text/javascript"> Cufon.now(); </script>
+
+<script type="text/javascript" src="http://www.sundance.org/js/disqus-comment-count"></script>
+
+<script type="text/javascript">
+  var _sf_async_config={uid:29817,domain:"sundance.org"};
+  (function(){
+    function loadChartbeat() {
+      window._sf_endpt=(new Date()).getTime();
+      var e = document.createElement('script');
+      e.setAttribute('language', 'javascript');
+      e.setAttribute('type', 'text/javascript');
+      e.setAttribute('src',
+         (("https:" == document.location.protocol) ? "https://a248.e.akamai.net/chartbeat.download.akamai.com/102508/" : "http://static.chartbeat.com/") +
+         "js/chartbeat.js");
+      document.body.appendChild(e);
+    }
+    var oldonload = window.onload;
+    window.onload = (typeof window.onload != 'function') ?
+       loadChartbeat : function() { oldonload(); loadChartbeat(); };
+  })();
+</script>
+
+<script type="text/javascript">
+  setTimeout(function(){var a=document.createElement("script");
+  var b=document.getElementsByTagName('script')[0];
+  a.src=document.location.protocol+"//dnn506yrbagrg.cloudfront.net/pages/scripts/0011/8296.js?"+Math.floor(new Date().getTime()/3600000);
+  a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
+</script>
+
+</body></html>

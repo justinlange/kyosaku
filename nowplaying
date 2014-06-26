@@ -1,0 +1,980 @@
+ 
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<script type="text/javascript">var _sf_startpt=(new Date()).getTime()</script>
+<title>Now Playing | Sundance Institute</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta property="og:title" content="Now Playing | Sundance Institute"/>
+	<meta name="description" content="Festival favorites and new discoveries premiering digitally through Sundance Institute's #ArtistServices Project." />
+	<meta property="og:description" content="Festival favorites and new discoveries premiering digitally through Sundance Institute's #ArtistServices Project." />
+	<meta property="og:image" content="http://www.sundance.org/images/sharing-thumbnails/now-playing.png"/>
+<link href="https://fonts.googleapis.com/css?family=Roboto:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+<link rel="shortcut icon" href="favicon-institute-14.ico" type="image/x-icon" />
+<link rel="icon" href="favicon-institute-14.ico" type="image/x-icon" />
+<link type="text/css" rel="stylesheet" href="styles/nowplaying/index.html" media="screen" />
+<link type="text/css" rel="stylesheet" href="index.html?css=styles%252Fprint.v.1282690611" media="print" />
+
+
+
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script> 
+
+<script type='text/javascript'>
+        var $j = jQuery.noConflict();
+    </script> 
+
+<script type="text/javascript" src="js/source-20130725.js"></script> 
+<script type="text/javascript" src="js/superfish"></script> 
+<script type="text/javascript" src="js/hoverIntent.js"></script> 
+<script type="text/javascript" src="js/index"></script> 
+<script type="text/javascript" src="js/mosaic"></script> 
+<script type="text/javascript">
+        // <![CDATA[
+        jQuery(document).ready(function() {
+            jQuery('ul.sf-menu').superfish({ 
+		delay: 650, // one second delay on mouseout 
+		animation: {opacity:'show'},  // fade-in and slide-down animation 
+		speed: 'fast', // faster animation speed 
+                disableHI: false, // hover intent
+		autoArrows: false, // disable generation of arrow mark-up 
+		dropShadows: false // disable drop shadows 
+    	    });
+            jQuery('.bar').mosaic({
+		animation: 'slide'
+    	    });
+	    jQuery(function() {	
+		jQuery('#cycle')
+		  .before('<div id="jumbotron-nav">')
+		  .cycle({
+			fx:      'fade',
+			timeout:  4500,
+			pager:   '#jumbotron-nav'
+		});
+		jQuery('#slider')
+		  .cycle({ 
+			fx:    'scrollHorz', 
+			speed:  2000,
+			timeout: 0,
+			next: '#nextArrow',
+			prev: '#prevArrow'
+		});
+
+	    });
+        });
+        // ]]>
+    </script> 
+<script type="text/javascript" src="js/tabs"></script>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="feed://feeds.feedburner.com/sundancefest_digest?format=xml" />
+
+
+        
+     
+<script type="text/javascript">
+        var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+        document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script> 
+<script type="text/javascript">
+        var pageTracker = _gat._getTracker("UA-4208897-5");
+        pageTracker._setDomainName(".sundance.org");
+        pageTracker._initData();
+        pageTracker._trackPageview();
+		function trackOutboundLink(link, category, action, label) {
+          try {
+            _gaq.push(['_trackEvent', category , action, label]);
+            } catch(err){}
+          setTimeout(function() {
+            document.location.href = link.href;
+            }, 100);
+        };
+    </script> 
+
+
+<script type="text/javascript">
+var fb_param = {};
+fb_param.pixel_id = '6010017860363';
+fb_param.value = '0.00';
+fb_param.currency = 'USD';
+(function(){
+  var fpw = document.createElement('script');
+  fpw.async = true;
+  fpw.src = '//connect.facebook.net/en_US/fp.js';
+  var ref = document.getElementsByTagName('script')[0];
+  ref.parentNode.insertBefore(fpw, ref);
+})();
+</script>
+<noscript><img height="1" width="1" alt="" style="display:none" src="https://www.facebook.com/offsite_event.php?id=6010017860363&amp;value=0&amp;currency=USD" /></noscript>
+
+
+</head>
+<body id="news" class="full-width">
+<div id="container">
+<div id="header" class="clearfix">
+  <div id="masthead"><a href="index.html" onclick="track(this, 'Universal Header Navigation', 'Sundance Institute');return false;">Sundance Institute</a></div>
+  <div id="masthead-right"> <div id="header-account">
+      <a href="login/index.html">Artist Services Alumni Login</a>
+  </div>
+    <div id="header-nav">
+      <p><a href="programs/apply/index.html" onclick="track(this, 'Universal Header Navigation', 'Apply/Submit');return false;">Apply/Submit</a> &#8226; <a href="store" onclick="track(this, 'Universal Header Navigation', 'Store');return false;">Store</a> <!-- &#8226; <a href="http://www.sundance.org/festival/tickets/" onclick="track(this, 'Universal Header Navigation', 'Tickets');return false;">Tickets</a> &#8226; <a href="http://www.sundance.org/festival/info/lodging/" onclick="track(this, 'Universal Header Navigation', 'Lodging');return false;">Lodging</a> --> &#8226; <strong><a href="https://donate.sundance.org/page/contribute/" id="donate-link" onclick="track(this, 'Universal Header Navigation', 'Donate');return false;">Donate</a></strong></p>
+    </div>
+    <div id="message"> 
+      &#8220;Storytellers broaden our minds: engage, provoke, inspire, and ultimately, connect us.&#8221;
+       <span class="floatr">&#8212;                                                                Robert Redford, President and Founder </span>        </div>
+    <div id="quick-signup" class="more"><a href="updates.2" onclick="track(this, 'Universal Header Navigation', 'Get Updates');return false;">GET UPDATES</a></div>
+  </div>
+</div>
+<div id="navigation" class="clearfix">
+  <ul class="sf-menu">
+    <li><a id="home-link" href="index.html"  onclick="track(this, 'Top Level Navigation', 'Home');return false;">Home</a></li>
+    <li><a href="about/index.html"  onclick="track(this, 'Top Level Navigation', 'About');return false;">About</a> <ul>
+	<li><a href="about/index.html">Mission</a></li>
+	<li><a href="about/history/index.html">History</a></li>
+	<li><a href="about/contacts/index.html">Contacts</a></li>
+	<li><a href="about/board-of-trustees/index.html">Board of Trustees</a></li>
+	<li><a href="about/utah-advisory-board/index.html">Utah Advisory Board</a></li>
+	<li><a href="about/leadership/index.html">Leadership</a></li>
+	<li><a href="about/volunteer/index.html">Volunteer</a>
+	<ul>
+		<li><a href="festival/volunteer/index.html">Festival Volunteers</a></li>
+		<li><a href="about/institute-lab-volunteers/index.html">Institute Lab Volunteers</a></li>
+		<li><a href="events/next-weekend-volunteers/index.html">NEXT Weekend Volunteers</a></li>
+		<li><a href="events/sundance-london-volunteers/index.html">Sundance London Volunteers</a></li>
+		<li><a href="about/other-volunteer-opportunities/index.html">Other Opportunities</a></li>
+	</ul>
+	</li>
+	<li><a href="about/jobs/index.html">Jobs and Internships</a></li>
+</ul></li>
+    <li><a href="programs/index.html"  onclick="track(this, 'Top Level Navigation', 'Artist Programs');return false;">Artist Programs</a> <ul>
+	<li><a href="programs/index.html">Overview</a></li>
+	
+	<li><a href="programs/feature-film/index.html">Feature Film</a>
+		<ul>
+		
+			<li><a href="programs/screenwriters-lab/index.html">Screenwriters Lab</a><ul>
+				<li><a href="programs/screenwriters-lab-faq/index.html">FAQ</a></li></ul></li>
+			<li><a href="programs/directors-lab/index.html">Directors Lab</a></li>
+			<li><a href="programs/creative-producing-fellowship-and-lab/index.html">Creative Producing Fellowship and Lab</a></li>
+    			<li style="display:none;"><a href="programs/creative-producing-fellowship-and-lab-how-to-apply/index.html">How To Apply</a></li>
+    			<li style="display:none;"><a href="programs/creative-producing-fellowship-and-lab-faq/index.html">Creative Producing Fellowship and Lab FAQ</a></li>
+    			<li><a href="programs/new-frontier-story-lab/index.html">New Frontier Story Lab</a></li>
+    			<li><a href="programs/episodic-story-lab/index.html">Episodic Story Lab</a><ul>
+				<li><a href="programs/episodic-story-lab-faq/index.html">FAQ</a></li></ul></li>
+			<li><a href="programs/feature-film-program-fund/index.html">Feature Film Program Fund</a>
+				<ul>
+    					<li><a href="programs/sloan-grant/index.html">Sloan Commissioning Grant & Fellowship</a></li>
+    					<li style="display: none;"><a href="programs/sloan-faq/index.html">FAQ</a></li>
+					<li><a href="programs/science-in-film/index.html">Science In Film</a></li>
+    					<li><a href="programs/a3-fellowship/index.html">A3 Foundation</a></li>
+				</ul>
+			</li>
+			<li><a href="programs/feature-film-continuum-of-support/index.html">Project Support Continuum</a></li>
+			<li><a href="programs/international-programs/index.html">International Programs</a>
+			   <ul>
+			      <li><a href="programs/middle-east-screenwriters-lab/index.html">Rawi Middle East Screenwriters Lab</a></li>
+			      <li><a href="programs/mumbai-mantra-sundance-institute-screenwriters-lab/index.html">Mumbai Mantra/Sundance Institute Screenwriters Lab</a></li>
+			      <li><a href="programs/f-sundance-screenwriters-lab/index.html">!F-Sundance Screenwriters Lab</a></li>
+			      <li><a href="programs/nhk-workshop-japan/index.html">NHK Workshop (Japan)</a></li>
+			      <li style="display: none;"><a href="programs/international-outreach-faq/index.html">International Outreach FAQ</a></li>
+			   </ul></li>
+			<li><a href="programs/screenwriters-intensive/index.html">Screenwriters Intensive</a></li>
+			<li><a href="stories/c/feature_film_program/index.html">FFP News and Blogs</a></li>
+			<li><a href="photos/feature-film/index.html">Photos</a></li>
+		</ul>
+	</li>
+	<li><a href="programs/documentary/index.html">Documentary</a>
+		<ul>
+			<li><a href="programs/documentary-fund/index.html">Documentary Fund</a></li>
+			<li><a href="programs/creative-documentary-labs/index.html">Creative Documentary Labs</a></li>
+			<li><a href="programs/creative-partnerships/index.html">Creative Partnerships</a>
+				<ul>
+					<li><a href="programs/ted-prize/index.html">TED Prize</a></li>
+					<li><a href="programs/ted-news/index.html">TED News</a></li>
+					<li style="display:none;"><a href="programs/ted-prize-faq/index.html">TED Prize FAQ</a></li>
+					<li style="display:none;"><a href="programs/ted-prize-apply/index.html">TED Prize Application</a></li>
+				</ul>
+			</li>
+			<li><a href="programs/hilton/index.html">Hilton LightStay Sustainability Award</a></li>
+			<li><a href="storiesofchange/index.html">Stories of Change Partnership</a></li>
+			<li><a href="programs/stories-of-change-films/index.html">Stories of Change Films</a></li>
+			<li><a href="gates/index.html">Gates Short Film Initiative</a></li>
+			<li><a href="programs/documentary-at-the-festival/index.html">At the Festival</a></li>
+			<li><a href="stories/blog/c/documentary-film/index.html">Blog</a></li>
+        		<li style="display:none;"><a href="programs/special-funding/index.html">Special Funding</a></li>
+        		<li style="display:none;"><a href="programs/sundance-documentary-awards/index.html">Documentary Awards</a></li>
+        		<li style="display:none;"><a href="programs/special-opportunity-funds/index.html">Special Opportunity Fund</a></li>
+		</ul>
+	</li>
+	<li><a href="programs/theatre/index.html">Theatre</a>  
+		<ul>
+			<li><a href="programs/theatre-lab/index.html">Theatre Lab</a>
+				<ul>
+					<li><a href="programs/theatre-lab-guidelines/index.html">Application & Guidelines</a></li>
+					<li><a href="programs/theatre-lab-faq/index.html">FAQ</a></li>
+				</ul>
+			</li>
+			<li><a href="programs/theatre-directors-retreat/index.html">Director's Retreat</a></li>
+			<li><a href="programs/theatre-lab-at-mass-moca/index.html">Theatre Lab at MASS MoCA</a></li>
+			
+			<li><a href="programs/ucross/index.html">Playwrights Retreat at Ucross</a></li>
+			<li><a href="programs/international-theatre/index.html">International</a>
+				<ul>
+					<li><a href="programs/east-africa/index.html">East Africa</a></li>
+					<li><a href="programs/theatre-middle-east-north-africa/index.html">Middle East / North Africa</a></li>
+				</ul>
+		        </li>
+			<li><a href="stories/blog/c/theatre/index.html">Blog</a></li>
+		</ul>
+	</li>
+	<li><a href="programs/native-film/index.html">Native Film</a>
+		<ul>
+			<li><a href="programs/native-lab-fellowship/index.html">Native Lab Fellowship</a></li>
+			<li><a href="programs/native-producing-fellowship/index.html">Native Producing Fellowship</a></li>
+			<li><a href="programs/native-film-at-the-festival/index.html">At the Festival</a></li>
+			<li><a href="stories/blog/c/native-film/index.html">Blog</a></li>
+		</ul>
+	</li>
+	<li><a href="programs/film-music/index.html">Film Music</a>
+		<ul>
+			<li><a href="programs/composers-lab/index.html">Composers Lab</a><ul>
+			    <li><a href="programs/composers-lab-faq/index.html">Composers Lab FAQ</a></li></ul></li>
+			<li><a href="programs/composers-lab-la/index.html">ComposersLab: L.A.</a></li>
+			<li style="display: none;"><a href="programs/composers-lab-la-registration/index.html">ComposersLab: L.A. Registration</a></li>
+			<li style="display: none;"><a href="programs/composers-lab-la-student-registration/index.html">ComposersLab: L.A. Student Registration</a></li>
+			<li><a href="programs/film-music-at-the-festival/index.html">At the Festival</a></li>
+			<li><a href="stories/blog/c/film-music/index.html">Blog</a></li>
+		</ul>
+	</li>
+	<li><a href="programs/producers/index.html">Producing</a>
+		<ul>
+			<li><a href="programs/creative-producing-labs/index.html">Labs</a></li>
+			<li><a href="programs/creative-producing-summit/index.html">Summit</a></li>
+			<li><a href="stories/blog/c/producers/index.html">Blog</a></li>
+		</ul>
+	</li>
+	<li><a href="programs/short-film/index.html">Short Film</a>
+		<ul>
+			<li><a href="programs/short-film-at-the-festival/index.html">Short Film at the Festival</a></li>
+			<li><a href="programs/short-film-tour/index.html">Short Film Tour</a></li>
+			<li><a href="programs/shortslab/index.html">ShortsLab</a><ul>
+			<li><a href="programs/shortslab-la/index.html">L.A.</a></li>
+			<li><a href="programs/shortslab-london/index.html">London</a></li>
+			<li><a href="programs/shortslab-miami/index.html">Miami</a></li>
+			<li><a href="programs/shortslab-philadelphia/index.html">Philadelphia</a></li>
+			<li style="display:none;"><a href="programs/shortslab-nyc/index.html">N.Y.C.</a></li>
+			<li style="display:none;"><a href="programs/shortslab-seattle/index.html">Seattle</a></li>
+			<li style="display:none;"><a href="programs/shortslab-milwaukee/index.html">Milwaukee</a></li></ul></li>
+			<li><a href="programs/short-film-public-programming/index.html">Public Programming</a></li>
+			<li><a href="focusforward/index.html">Focus Forward</a></li>
+			<li><a href="stories/blog/c/short-film/index.html">Blog</a></li>
+		</ul>
+	</li>
+	<li><a href="programs/artist-alumni/index.html">Artist Alumni</a>
+		<ul>
+			<li><a href="programs/alumni-advisory-board/index.html">Advisory Board</a></li>
+		</ul>
+	</li>
+	<li><a href="filmforward/index.html">FILM FORWARD</a>
+		<ul>
+			<li><a href="filmforward/index.html">Website</a></li>
+			<li><a href="filmforward/destinations/index.html">Destinations</a></li>
+			<li><a href="filmforward/films/index.html">Films</a></li>
+			<li><a href="filmforward/blog/index.html">Blog</a></li>
+			<li><a href="filmforward/photos/index.html">Photos</a></li>
+			<li><a href="filmforward/watch/index.html">Watch</a></li>
+			<li><a href="filmforward/press/index.html">Press</a></li>
+		</ul>
+	</li>
+	<li><a href="artistservices/index.html">Artist Services</a></li>
+	<li><a href="programs/women-filmmakers-initiative/index.html">Women Filmmakers Initiative</a>
+		<ul>
+			<li><a href="video/her-infinite-variety-women-in-film">&#8220;Her Infinite Variety&#8221;</a></li>
+			<li><a href="festival/blog-entry/day-five-sundance-film-festival-roundup/index.html#womenatsundance">Women's Brunch</a></li>
+		</ul>
+	</li>
+</ul></li>
+    <li><a href="calendar/index.html"  onclick="track(this, 'Top Level Navigation', 'Events');return false;">Events</a>                     <ul>
+                        <li><a href="calendar/index.html">Calendar</a></li>
+                        <li><a href="next/index.html">NEXT FEST</a>
+                            <ul>
+                                <li><a href="http://www.sundance.org/next/volunteers-next/">Volunteering</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="support-us/special-events/index.html">Benefit Events</a></li>
+                        <li><a href="http://www.sundance-london.com" target="_blank">Sundance London</a>
+                            <ul>
+                                <li><a href="events/sundance-london-volunteers/index.html">Volunteering</a></li>
+                            </ul>
+                        </li>
+                        
+                    </ul></li>
+    <li><a href="stories/index.html"  onclick="track(this, 'Top Level Navigation', 'Stories');return false;">Stories</a>                     <ul>
+                        <li><a href="stories/index.html">All Stories</a></li>
+                        <li><a href="festivalhistory/index.html">30 Years of the Festival!</a></li>
+                        <li><a href="stories/articles/index.html">Articles</a></li>
+                        <li><a href="stories/blog/index.html">Blog</a></li>
+                        <li><a href="photos/index.html">Photos</a></li>
+                        <li><a href="stories/slideshows/index.html">Audio Slideshows</a></li>
+                        <li><a href="press-center/index.html">Press Center</a></li>
+                        <li><a href="stories/rss-feeds.2">RSS</a></li>
+                        <li><a href="email/index.html">Email Manager</a></li>
+                    </ul></li>
+    <li><a href="video/index.html" onclick="track(this, 'Top Level Navigation', 'Videos');return false;">Watch</a>                     <ul id="bottom-most-footer-list">
+                        <li><a href="nowplaying">Now Playing</a></li>
+                        <li><a href="video/index.html">Browse Videos</a></li>
+                        <li><a href="video/live/index.html">Live@Sundance</a></li>
+                        <li><a href="http://history.sundance.org/">Archives</a></li>
+                        <li><a href="http://www.youtube.com/sff" target="_blank">YouTube Channel</a></li>
+                    </ul></li>
+    <li><a href="http://history.sundance.org/"  onclick="track(this, 'Top Level Navigation', 'Archives');return false;">Archives</a> <ul>
+<li><a href="http://history.sundance.org/">Online Archives</a>
+	<ul>
+		<li><a href="http://history.sundance.org/search/">Advanced Search</a></li>
+		<li><a href="http://history.sundance.org/lists/">Common Searches</a></li>
+		
+	</ul>
+	</li>
+<li><a href="archives/film-preservation/index.html">Film Preservation</a>
+	<ul>
+		<li><a href="archives/collection/index.html">The Collection</a></li>
+		<li><a href="archives/film-preservation-faq/index.html">FAQ</a></li>
+		<li><a href="archives/collection-screenings/index.html">Collection Screenings</a></li>
+	</ul>
+	</li>
+<li><a href="archives/institute-archives/index.html">Institute Archives</a>
+	<ul>
+		<li><a href="archives/scope-of-materials/index.html">Scope of Materials</a></li>
+		<li><a href="archives/archives-collections/index.html">Archives Collections</a></li>
+		<li><a href="archives/archives-faq/index.html">Archives FAQ</a></li>
+		<li><a href="archives/archives-terms-of-access/index.html">Terms of Access</a></li>
+	</ul>
+</li>
+</ul>
+</li>
+    <li><a href="press-center/index.html"  onclick="track(this, 'Top Level Navigation', 'Press');return false;">Press</a> <ul>
+	<li><a href="press-center/index.html">Institute Press Center</a></li>
+        <li><a href="festival/press/index.html">Festival Press</a></li>
+	<li><a href="press-center/press-releases/index.html">Press Releases</a></li>
+        <li><a href="http://press.sundance.org/press/">Images &amp; Publicity Materials</a></li>
+        <li><a href="press-center/press-center-faq/index.html">Press FAQ</a></li>
+	<li><a href="filmforward/press/index.html">Film Forward Press</a></li>
+	
+	
+	
+	
+	
+	
+	
+	
+</ul></li>
+    <li><a href="support-us/index.html"  onclick="track(this, 'Top Level Navigation', 'Support Us');return false;">Support Us</a> <ul>
+	<li><a href="support-us/index.html">Overview</a></li>
+	<li><a href="https://donate.sundance.org/page/contribute/">Donate</a></li>
+	<li><a href="support-us/patron-circle/index.html">Patron Circle</a>
+		<ul>
+			<li style="display: none;"><a href="support-us/join-patron-circle/index.html">Join Patron Circle</a></li> <!-- old page -->
+			<li><a href="support-us/patron-circle-join/index.html">Join</a></li>
+			<li><a href="support-us/patron-circle-renew/index.html">Renew</a></li>
+		</ul>
+	</li>
+	<li><a href="support-us/membership/index.html">Become A Member</a></li>
+	<li><a href="support-us/corporate-support/index.html">Corporate Support</a></li>
+	<li><a href="support-us/special-events/index.html">Benefit Events</a></li>
+	<li><a href="support-us/foundation-giving/index.html">Foundation Giving</a></li>
+	<li><a href="support-us/community-programs/index.html">Community Programs</a>
+		<ul>
+			<li><a href="support-us/public-programming/index.html">Public Programming</a></li>
+			<li><a href="support-us/festival-student-programs/index.html">Sundance Film Festival Student Programs</a></li>
+			<li><a href="support-us/community-at-the-festival/index.html">Outreach at the Festival</a></li>
+			<li><a href="stories/blog/c/community/index.html">Blog</a></li>
+		</ul>
+	</li>
+	<li><a href="support-us/art-house-project/index.html">Art House Project</a></li>        
+</ul> </li>
+    <li><a href="filmforward/index.html" id="filmforward-link"  onclick="track(this, 'Top Level Navigation', 'Film Forward');return false;">Film Forward</a> <ul>
+	<li><a href="filmforward/about/index.html">About</a></li>
+	<li><a href="filmforward/destinations/index.html">Destinations</a></li>
+	<li><a href="filmforward/films/index.html">Films</a></li>
+	<li><a href="filmforward/stories/index.html">Stories</a></li>
+	<li><a href="photos/film-forward/index.html">Photos</a></li>
+	<li><a href="filmforward/watch/index.html">Watch</a></li>
+	<li><a href="filmforward/press/index.html">Press</a></li>
+</ul></li>
+    <li><a href="festival/index.html" id="festival-link"  onclick="track(this, 'Top Level Navigation', 'Sundance Film Festival');return false;">Film Festival</a> <ul>
+                <li><a href="festival/index.html">Homepage</a></li>
+                <li><a href="festival/attend/index.html">Attend</a></li>
+                <li><a href="festival/tickets/index.html">Get Tickets</a></li>
+                <li><a href="http://filmguide.sundance.org/">Festival Program</a></li>
+                <li><a href="videos/index.html">Watch</a></li>
+                <li><a href="festival/stories/index.html">Stories</a></li>
+                <li><a href="store">Store</a></li>
+                <li><a href="festival/support-us/index.html">Support Us</a></li>
+</ul></li>
+  </ul>
+</div>
+<div id="main">
+
+    <div id="content"  class="section">
+
+<style type="text/css">
+#jumbotron-np { color: #fff; font-size: 12px; line-height: 16px; height: 350px; position: relative; margin-bottom: 20px; }
+#jumbotron-np a { color: #ffffff; }
+#jumbotron-np #cycle { float: left; width: 770px; height: 350px; overflow: hidden; }
+#jumbotron-nav { position: absolute; right: 20px; bottom: 20px; z-index: 80; }
+#jumbotron-nav a { background: #000000; border-radius: 3px; -moz-border-radius: 3px; -webkit-border-radius: 3px; color: #fff; display: block; float: left; font-size: 14px; font-weight: bold; line-height: 14px; margin: 0 5px 0 0; padding: 4px 0; text-align: center; width: 24px; }
+#jumbotron-nav a:hover { color: #f05b1c; }
+#jumbotron-nav a.activeSlide { background: #f05b1c; color: #330033; }
+#jumbotron-np #cycle .slide { background: #111; width: 790px; height: 350px; position: relative; }
+#jumbotron-np .slide .entry { padding: 10px; background: url(images/festival-13/content/hero/rotator-bg.png); position: absolute; top: 260px; bottom: 10px; left: 10px; width: 730px; z-index: 60; height: 60px; zoom: 1; margin: 0; border-bottom:none;}
+#jumbotron-np .slide .entry a.headline { color: #fff; text-shadow: 0 0 10px #000000; font-size: 20px; font-weight: bold; line-height: 24px; }
+#jumbotron-np .slide .entry a.headline:hover { color: #f05b1c; }
+#jumbotron-np .slide .read-more { font-weight: bold; position: absolute; left: 10px; bottom: 10px; margin-bottom: 0; }
+#jumbotron-np .slide .read-more a { background: #D10763; background-color: #000; color: #	; text-transform: uppercase; display: block; float: left; font-size: 12px; font-weight: bold; line-height: 14px; margin: 0 5px 1px 0; padding: 6px 8px; text-align: center; }
+#jumbotron-np .slide .read-more a:hover { background: #f05b1c; color: #fff; text-decoration: none; }
+#jumbotron-np .slide .credit { font-size: 13px; text-align: right; font-weight: normal; font-style: italic; margin: 0 0 4px 10px; line-height: 21px; }
+
+</style>
+
+
+
+
+
+
+<div class="breadcrumb"><a href="nowplaying">#ArtistServices Now Playing</a> </div>
+<div id="section-nav">
+    <h2>In This Section</h2>
+    <ul>
+	<li><a href="nowplaying">New Releases</a></li>
+	<li><a href="http://www.sundance.org/nowplaying/all-films/">All Films</a></li>
+	<li><a href="http://www.sundance.org/nowplaying/comedies/">Comedies</a></li>
+	<li><a href="http://www.sundance.org/nowplaying/documentaries/">Documentaries</a></li>
+	<li><a href="http://www.sundance.org/nowplaying/dramas/">Dramas</a></li>
+	<li><a href="http://www.sundance.org/nowplaying/native-film/">Native Films</a></li>
+	<li style="display:none;"><a href="http://www.sundance.org/nowplaying/romance/">Romance</a></li>
+	<li><a href="http://www.sundance.org/nowplaying/weird/">Weird</a></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+<div class="base entry now-playing">
+
+
+<h1>Watch Now - Latest Indie Releases</h1>
+
+<p>Kick back and enjoy Sundance Institute’s favorite modern work, from groundbreaking narrative films and documentaries to popular successes that embody the spirit of independent filmmaking.  Available for the first time.</p>
+
+<div id="jumbotron-np">
+     <div id="cycle" style="z-index:0;">
+    
+        <div class="slide" style="z-index:0;">
+            <a href="http://www.sundance.org/nowplaying/film/sleep-dealer" onclick="track(this, 'Jumbotron (Festival)', 'NP - Sleep Dealer (1)');return false;"><img src="images/jumbotron/SLEEP_DEALER_banner.jpg" alt="" style="z-index:0;" /></a>
+       	    <div class="entry">
+            	<p><a href="http://www.sundance.org/nowplaying/film/sleep-dealer" onclick="track(this, 'Jumbotron (Now Playing)', 'NP - Sleep Dealer (1)');return false;" class="headline">Now Available: SLEEP DEALER </a></p>
+            </div>
+        </div>
+    
+        <div class="slide" style="z-index:0;">
+            <a href="http://www.sundance.org/nowplaying/film/the-cold-lands/" onclick="track(this, 'Jumbotron (Festival)', 'NP- Cold Land (2)');return false;"><img src="images/jumbotron/SilasYelich_TheColdLands_CourtesyofCinereach_2.jpg" alt="" style="z-index:0;" /></a>
+       	    <div class="entry">
+            	<p><a href="http://www.sundance.org/nowplaying/film/the-cold-lands/" onclick="track(this, 'Jumbotron (Now Playing)', 'NP- Cold Land (2)');return false;" class="headline">The Cold Lands: Pre-orders Now Available </a></p>
+            </div>
+        </div>
+    
+        <div class="slide" style="z-index:0;">
+            <a href="http://www.sundance.org/nowplaying/film/a-river-changes-course/" onclick="track(this, 'Jumbotron (Festival)', 'NP- A RIVER CHANGES COURSE (3)');return false;"><img src="images/jumbotron/ARCC_COVER.jpg" alt="" style="z-index:0;" /></a>
+       	    <div class="entry">
+            	<p><a href="http://www.sundance.org/nowplaying/film/a-river-changes-course/" onclick="track(this, 'Jumbotron (Now Playing)', 'NP- A RIVER CHANGES COURSE (3)');return false;" class="headline">A River Changse Course: 2013 World Cinema Grand Jury Prize Winner</a></p>
+            </div>
+        </div>
+    
+        <div class="slide" style="z-index:0;">
+            <a href="https://itunes.apple.com/us/movie/otelo-burning/id767948456" onclick="track(this, 'Jumbotron (Festival)', 'NP - Otelo Burning (4)');return false;"><img src="images/jumbotron/Otelo_Burning_banner_3_rectangle.jpg" alt="" style="z-index:0;" /></a>
+       	    <div class="entry">
+            	<p><a href="https://itunes.apple.com/us/movie/otelo-burning/id767948456" onclick="track(this, 'Jumbotron (Now Playing)', 'NP - Otelo Burning (4)');return false;" class="headline">Otelo Burning: South African Surfing Tale Available Now</a></p>
+            </div>
+        </div>
+    
+        <div class="slide" style="z-index:0;">
+            <a href="http://www.sundance.org/nowplaying/film/breakfast-with-curtis/" onclick="track(this, 'Jumbotron (Festival)', 'NP- Breakfast With Curtis (5)');return false;"><img src="images/jumbotron/StillforWeb_2.jpg" alt="" style="z-index:0;" /></a>
+       	    <div class="entry">
+            	<p><a href="http://www.sundance.org/nowplaying/film/breakfast-with-curtis/" onclick="track(this, 'Jumbotron (Now Playing)', 'NP- Breakfast With Curtis (5)');return false;" class="headline">Breakfast With Curtis: Now on Netflix</a></p>
+            </div>
+        </div>
+    
+    </div>
+</div>
+
+    <h2 style="margin-bottom:20px;">New Releases</h2>
+
+    <ul class="now-playing-grid">
+
+        <li class="bar">
+            <a href="http://www.sundance.org/nowplaying/film/a-river-changes-course/" class="mosaic-overlay">
+                <div class="infobox">
+                    <h2>A River Changes Course</h2>
+                    <span class="director">Dir: Kalyanee Mam</span>
+                    <div class="synopsis"><p>"We've worked so hard on this land,&rdquo; says Sav Samourn. &ldquo;And now they've come to destroy it all. Sooner or later it will all be gone.&rdquo;<br /><br />A River Changes...</p></div>
+                </div>
+            </a>
+            <div class="mosaic-backdrop"><img src="images/now-playing/posters/ARCC_Poster_Sm.jpg"/></div>        </li>
+
+        <li class="bar">
+            <a href="http://www.sundance.org/nowplaying/film/a-healthy-baby-girl/" class="mosaic-overlay">
+                <div class="infobox">
+                    <h2>A Healthy Baby Girl</h2>
+                    <span class="director">Dir: Judith Helfand</span>
+                    <div class="synopsis"><p>A Healthy Baby Girl is an intimate, humorous, yet searing exploration of what happens when science, marketing, and corporate power enter our deepest...</p></div>
+                </div>
+            </a>
+            <div class="mosaic-backdrop"><img src="images/now-playing/posters/Poster_-_HBG_A.jpg"/></div>        </li>
+
+        <li class="bar">
+            <a href="http://www.sundance.org/nowplaying/film/the-corndog-man/" class="mosaic-overlay">
+                <div class="infobox">
+                    <h2>The Corndog Man</h2>
+                    <span class="director">Dir: Andrew Shea</span>
+                    <div class="synopsis"><p><em></em>A boat salesman in small-town South Carolina gets a pivotal sales call, the first of many from what he hopes is a buyer ready to spend tons of money...</p></div>
+                </div>
+            </a>
+            <div class="mosaic-backdrop"><img src="images/now-playing/posters/Corndog_man_poster.jpg"/></div>        </li>
+
+        <li class="bar">
+            <a href="http://www.sundance.org/nowplaying/film/denadie/" class="mosaic-overlay">
+                <div class="infobox">
+                    <h2>DeNADIE</h2>
+                    <span class="director">Dir: Tin Dirdamal</span>
+                    <div class="synopsis"><p>Prepare for the journey as an unknown, a nothing, no one. Prepare to  leave everything from South and Central America behind and travel alone  with a...</p></div>
+                </div>
+            </a>
+            <div class="mosaic-backdrop"><img src="images/now-playing/posters/DeNadieposter1.jpg"/></div>        </li>
+
+        <li class="bar">
+            <a href="http://www.sundance.org/nowplaying/film/jack-kerouac-king-of-the-beats/" class="mosaic-overlay">
+                <div class="infobox">
+                    <h2>Jack Kerouac: King of the Beats</h2>
+                    <span class="director">Dir: John Antonelli</span>
+                    <div class="synopsis"><p>Jack Kerouac's writings, including his extraordinary novel "On The Road"  took American literature to new levels of creativity and in the process...</p></div>
+                </div>
+            </a>
+            <div class="mosaic-backdrop"><img src="images/now-playing/posters/KEROUACposter.jpg"/></div>        </li>
+
+        <li class="bar">
+            <a href="http://www.sundance.org/nowplaying/film/the-cold-lands/" class="mosaic-overlay">
+                <div class="infobox">
+                    <h2>The Cold Lands</h2>
+                    <span class="director">Dir: Tom Gilroy</span>
+                    <div class="synopsis"><p>When his fiercely self-reliant mother (Lili Taylor) dies unexpectedly,  eleven year-old Atticus (Silas Yelich) is wary of the authorities and  flees...</p></div>
+                </div>
+            </a>
+            <div class="mosaic-backdrop"><img src="images/now-playing/posters/TheColdLands_poster_178x267.jpg"/></div>        </li>
+
+        <li class="bar">
+            <a href="http://www.sundance.org/nowplaying/film/rivers-of-men/" class="mosaic-overlay">
+                <div class="infobox">
+                    <h2>Rivers of Men</h2>
+                    <span class="director">Dir: Tin Dirdamal</span>
+                    <div class="synopsis"><p>The legend, the details and the lie surrounding the Bolivian city that went to war over water. <br /> <br />A mother who lost a son, an Army General who was...</p></div>
+                </div>
+            </a>
+            <div class="mosaic-backdrop"><img src="images/now-playing/posters/Poster_1.jpg"/></div>        </li>
+
+        <li class="bar">
+            <a href="http://www.sundance.org/nowplaying/film/sleep-dealer/" class="mosaic-overlay">
+                <div class="infobox">
+                    <h2>Sleep Dealer</h2>
+                    <span class="director">Dir: Alex Rivera </span>
+                    <div class="synopsis"><p>Mexico, the near future. Memo Cruz always dreamed of leaving his village  and heading north. But when he does, Memo finds a bizarre new world  border...</p></div>
+                </div>
+            </a>
+            <div class="mosaic-backdrop"><img src="images/now-playing/posters/SLEEP_DEALER_POSTER_FOR_WEB.jpg"/></div>        </li>
+
+        <li class="bar">
+            <a href="http://www.sundance.org/nowplaying/film/the-ballad-of-ramblin-jack/" class="mosaic-overlay">
+                <div class="infobox">
+                    <h2>The Ballad of Ramblin&#8217; Jack</h2>
+                    <span class="director">Dir: Aiyana Elliott</span>
+                    <div class="synopsis"><p>From his unlikely roots as the son of Brooklyn doctor, to his ongoing ramblings as the last of the singing cowboys, Ramblin&rsquo; Jack has packed so many...</p></div>
+                </div>
+            </a>
+            <div class="mosaic-backdrop"><img src="images/now-playing/posters/Poster_-_BORJ.jpg"/></div>        </li>
+
+        <li class="bar">
+            <a href="http://www.sundance.org/nowplaying/film/the-revolutionary-optmists/" class="mosaic-overlay">
+                <div class="infobox">
+                    <h2>The Revolutionary Optimists</h2>
+                    <span class="director">Dir: Nicole Newnham & Maren Grainger-Monsen</span>
+                    <div class="synopsis"><p>Amlan Ganguly doesn't rescue children living in slums; he empowers them to become change agents, battling poverty and transforming their...</p></div>
+                </div>
+            </a>
+            <div class="mosaic-backdrop"><img src="images/now-playing/posters/RevOptPoster.jpg"/></div>        </li>
+
+        <li class="bar">
+            <a href="http://www.sundance.org/nowplaying/film/the-woman-chaser/" class="mosaic-overlay">
+                <div class="infobox">
+                    <h2>The Woman Chaser</h2>
+                    <span class="director">Dir: Robinson Devor</span>
+                    <div class="synopsis"><p>Richard (Warburton) is a shrewd salesman and used-car dealer.  Fancying  himself an artist, he completes his cherished film project, but forces...</p></div>
+                </div>
+            </a>
+            <div class="mosaic-backdrop"><img src="images/now-playing/posters/WOMANCHASER_POSTER.jpg"/></div>        </li>
+
+        <li class="bar">
+            <a href="http://www.sundance.org/nowplaying/film/beyond-the-ocean/" class="mosaic-overlay">
+                <div class="infobox">
+                    <h2>Beyond the Ocean</h2>
+                    <span class="director">Dir: Tony Pemberton</span>
+                    <div class="synopsis"><p>A powerful fusion of the past and present, concerning a young Russian  woman who undergoes a transforming journey, arriving in New York to  begin a...</p></div>
+                </div>
+            </a>
+            <div class="mosaic-backdrop"><img src="images/now-playing/posters/BTO_Poster.jpg"/></div>        </li>
+
+    </ul>
+
+</div>
+<div class="clearfix"></div>
+<div id="alert" style="
+background-color:#F05B1C; 
+background-image: url(images/misc/intel-appup-logo.png); 
+background-position: 11px 14px; 
+background-repeat: no-repeat; 
+color:#FFF; 
+margin-left: 170px; 
+padding-left: 45px; 
+padding-right: 10px;
+width: 715px;">Watch and Follow Sundance Film Festival hits from 2012 – <a href="http://www.appup.com/app-details/best-of-sundance-film-festival" style="color:#fff; font-weight:bold; text-decoration:underline;">download</a> our new Intel “Now-Playing” app for Windows tablets. Free.</div>
+        </div>
+        <!-- /#content -->
+    </div>
+</div>
+<div id="footer-container">
+    <div id="footer">
+        <div id="institute-info">
+            <h3><a href="index.html" onClick="track(this, 'Footer Navigation', 'Sundance Institute');return false;">Sundance Institute</a></h3>
+            <div class="col">
+                <h4><a href="about/index.html" onClick="track(this, 'Footer Navigation', 'About');return false;">About</a></h4>
+                <ul>
+	<li><a href="about/index.html">Mission</a></li>
+	<li><a href="about/history/index.html">History</a></li>
+	<li><a href="about/contacts/index.html">Contacts</a></li>
+	<li><a href="about/board-of-trustees/index.html">Board of Trustees</a></li>
+	<li><a href="about/utah-advisory-board/index.html">Utah Advisory Board</a></li>
+	<li><a href="about/leadership/index.html">Leadership</a></li>
+	<li><a href="about/volunteer/index.html">Volunteer</a>
+	<ul>
+		<li><a href="festival/volunteer/index.html">Festival Volunteers</a></li>
+		<li><a href="about/institute-lab-volunteers/index.html">Institute Lab Volunteers</a></li>
+		<li><a href="events/next-weekend-volunteers/index.html">NEXT Weekend Volunteers</a></li>
+		<li><a href="events/sundance-london-volunteers/index.html">Sundance London Volunteers</a></li>
+		<li><a href="about/other-volunteer-opportunities/index.html">Other Opportunities</a></li>
+	</ul>
+	</li>
+	<li><a href="about/jobs/index.html">Jobs and Internships</a></li>
+</ul>
+            </div>
+            <div class="col">
+                <h4><a href="programs/index.html" onClick="track(this, 'Footer Navigation', 'Artist Programs');return false;">Artist Programs</a></h4>
+                <ul>
+	<li><a href="programs/index.html">Overview</a></li>
+	
+	<li><a href="programs/feature-film/index.html">Feature Film</a>
+		<ul>
+		
+			<li><a href="programs/screenwriters-lab/index.html">Screenwriters Lab</a><ul>
+				<li><a href="programs/screenwriters-lab-faq/index.html">FAQ</a></li></ul></li>
+			<li><a href="programs/directors-lab/index.html">Directors Lab</a></li>
+			<li><a href="programs/creative-producing-fellowship-and-lab/index.html">Creative Producing Fellowship and Lab</a></li>
+    			<li style="display:none;"><a href="programs/creative-producing-fellowship-and-lab-how-to-apply/index.html">How To Apply</a></li>
+    			<li style="display:none;"><a href="programs/creative-producing-fellowship-and-lab-faq/index.html">Creative Producing Fellowship and Lab FAQ</a></li>
+    			<li><a href="programs/new-frontier-story-lab/index.html">New Frontier Story Lab</a></li>
+    			<li><a href="programs/episodic-story-lab/index.html">Episodic Story Lab</a><ul>
+				<li><a href="programs/episodic-story-lab-faq/index.html">FAQ</a></li></ul></li>
+			<li><a href="programs/feature-film-program-fund/index.html">Feature Film Program Fund</a>
+				<ul>
+    					<li><a href="programs/sloan-grant/index.html">Sloan Commissioning Grant & Fellowship</a></li>
+    					<li style="display: none;"><a href="programs/sloan-faq/index.html">FAQ</a></li>
+					<li><a href="programs/science-in-film/index.html">Science In Film</a></li>
+    					<li><a href="programs/a3-fellowship/index.html">A3 Foundation</a></li>
+				</ul>
+			</li>
+			<li><a href="programs/feature-film-continuum-of-support/index.html">Project Support Continuum</a></li>
+			<li><a href="programs/international-programs/index.html">International Programs</a>
+			   <ul>
+			      <li><a href="programs/middle-east-screenwriters-lab/index.html">Rawi Middle East Screenwriters Lab</a></li>
+			      <li><a href="programs/mumbai-mantra-sundance-institute-screenwriters-lab/index.html">Mumbai Mantra/Sundance Institute Screenwriters Lab</a></li>
+			      <li><a href="programs/f-sundance-screenwriters-lab/index.html">!F-Sundance Screenwriters Lab</a></li>
+			      <li><a href="programs/nhk-workshop-japan/index.html">NHK Workshop (Japan)</a></li>
+			      <li style="display: none;"><a href="programs/international-outreach-faq/index.html">International Outreach FAQ</a></li>
+			   </ul></li>
+			<li><a href="programs/screenwriters-intensive/index.html">Screenwriters Intensive</a></li>
+			<li><a href="stories/c/feature_film_program/index.html">FFP News and Blogs</a></li>
+			<li><a href="photos/feature-film/index.html">Photos</a></li>
+		</ul>
+	</li>
+	<li><a href="programs/documentary/index.html">Documentary</a>
+		<ul>
+			<li><a href="programs/documentary-fund/index.html">Documentary Fund</a></li>
+			<li><a href="programs/creative-documentary-labs/index.html">Creative Documentary Labs</a></li>
+			<li><a href="programs/creative-partnerships/index.html">Creative Partnerships</a>
+				<ul>
+					<li><a href="programs/ted-prize/index.html">TED Prize</a></li>
+					<li><a href="programs/ted-news/index.html">TED News</a></li>
+					<li style="display:none;"><a href="programs/ted-prize-faq/index.html">TED Prize FAQ</a></li>
+					<li style="display:none;"><a href="programs/ted-prize-apply/index.html">TED Prize Application</a></li>
+				</ul>
+			</li>
+			<li><a href="programs/hilton/index.html">Hilton LightStay Sustainability Award</a></li>
+			<li><a href="storiesofchange/index.html">Stories of Change Partnership</a></li>
+			<li><a href="programs/stories-of-change-films/index.html">Stories of Change Films</a></li>
+			<li><a href="gates/index.html">Gates Short Film Initiative</a></li>
+			<li><a href="programs/documentary-at-the-festival/index.html">At the Festival</a></li>
+			<li><a href="stories/blog/c/documentary-film/index.html">Blog</a></li>
+        		<li style="display:none;"><a href="programs/special-funding/index.html">Special Funding</a></li>
+        		<li style="display:none;"><a href="programs/sundance-documentary-awards/index.html">Documentary Awards</a></li>
+        		<li style="display:none;"><a href="programs/special-opportunity-funds/index.html">Special Opportunity Fund</a></li>
+		</ul>
+	</li>
+	<li><a href="programs/theatre/index.html">Theatre</a>  
+		<ul>
+			<li><a href="programs/theatre-lab/index.html">Theatre Lab</a>
+				<ul>
+					<li><a href="programs/theatre-lab-guidelines/index.html">Application & Guidelines</a></li>
+					<li><a href="programs/theatre-lab-faq/index.html">FAQ</a></li>
+				</ul>
+			</li>
+			<li><a href="programs/theatre-directors-retreat/index.html">Director's Retreat</a></li>
+			<li><a href="programs/theatre-lab-at-mass-moca/index.html">Theatre Lab at MASS MoCA</a></li>
+			
+			<li><a href="programs/ucross/index.html">Playwrights Retreat at Ucross</a></li>
+			<li><a href="programs/international-theatre/index.html">International</a>
+				<ul>
+					<li><a href="programs/east-africa/index.html">East Africa</a></li>
+					<li><a href="programs/theatre-middle-east-north-africa/index.html">Middle East / North Africa</a></li>
+				</ul>
+		        </li>
+			<li><a href="stories/blog/c/theatre/index.html">Blog</a></li>
+		</ul>
+	</li>
+	<li><a href="programs/native-film/index.html">Native Film</a>
+		<ul>
+			<li><a href="programs/native-lab-fellowship/index.html">Native Lab Fellowship</a></li>
+			<li><a href="programs/native-producing-fellowship/index.html">Native Producing Fellowship</a></li>
+			<li><a href="programs/native-film-at-the-festival/index.html">At the Festival</a></li>
+			<li><a href="stories/blog/c/native-film/index.html">Blog</a></li>
+		</ul>
+	</li>
+	<li><a href="programs/film-music/index.html">Film Music</a>
+		<ul>
+			<li><a href="programs/composers-lab/index.html">Composers Lab</a><ul>
+			    <li><a href="programs/composers-lab-faq/index.html">Composers Lab FAQ</a></li></ul></li>
+			<li><a href="programs/composers-lab-la/index.html">ComposersLab: L.A.</a></li>
+			<li style="display: none;"><a href="programs/composers-lab-la-registration/index.html">ComposersLab: L.A. Registration</a></li>
+			<li style="display: none;"><a href="programs/composers-lab-la-student-registration/index.html">ComposersLab: L.A. Student Registration</a></li>
+			<li><a href="programs/film-music-at-the-festival/index.html">At the Festival</a></li>
+			<li><a href="stories/blog/c/film-music/index.html">Blog</a></li>
+		</ul>
+	</li>
+	<li><a href="programs/producers/index.html">Producing</a>
+		<ul>
+			<li><a href="programs/creative-producing-labs/index.html">Labs</a></li>
+			<li><a href="programs/creative-producing-summit/index.html">Summit</a></li>
+			<li><a href="stories/blog/c/producers/index.html">Blog</a></li>
+		</ul>
+	</li>
+	<li><a href="programs/short-film/index.html">Short Film</a>
+		<ul>
+			<li><a href="programs/short-film-at-the-festival/index.html">Short Film at the Festival</a></li>
+			<li><a href="programs/short-film-tour/index.html">Short Film Tour</a></li>
+			<li><a href="programs/shortslab/index.html">ShortsLab</a><ul>
+			<li><a href="programs/shortslab-la/index.html">L.A.</a></li>
+			<li><a href="programs/shortslab-london/index.html">London</a></li>
+			<li><a href="programs/shortslab-miami/index.html">Miami</a></li>
+			<li><a href="programs/shortslab-philadelphia/index.html">Philadelphia</a></li>
+			<li style="display:none;"><a href="programs/shortslab-nyc/index.html">N.Y.C.</a></li>
+			<li style="display:none;"><a href="programs/shortslab-seattle/index.html">Seattle</a></li>
+			<li style="display:none;"><a href="programs/shortslab-milwaukee/index.html">Milwaukee</a></li></ul></li>
+			<li><a href="programs/short-film-public-programming/index.html">Public Programming</a></li>
+			<li><a href="focusforward/index.html">Focus Forward</a></li>
+			<li><a href="stories/blog/c/short-film/index.html">Blog</a></li>
+		</ul>
+	</li>
+	<li><a href="programs/artist-alumni/index.html">Artist Alumni</a>
+		<ul>
+			<li><a href="programs/alumni-advisory-board/index.html">Advisory Board</a></li>
+		</ul>
+	</li>
+	<li><a href="filmforward/index.html">FILM FORWARD</a>
+		<ul>
+			<li><a href="filmforward/index.html">Website</a></li>
+			<li><a href="filmforward/destinations/index.html">Destinations</a></li>
+			<li><a href="filmforward/films/index.html">Films</a></li>
+			<li><a href="filmforward/blog/index.html">Blog</a></li>
+			<li><a href="filmforward/photos/index.html">Photos</a></li>
+			<li><a href="filmforward/watch/index.html">Watch</a></li>
+			<li><a href="filmforward/press/index.html">Press</a></li>
+		</ul>
+	</li>
+	<li><a href="artistservices/index.html">Artist Services</a></li>
+	<li><a href="programs/women-filmmakers-initiative/index.html">Women Filmmakers Initiative</a>
+		<ul>
+			<li><a href="video/her-infinite-variety-women-in-film">&#8220;Her Infinite Variety&#8221;</a></li>
+			<li><a href="festival/blog-entry/day-five-sundance-film-festival-roundup/index.html#womenatsundance">Women's Brunch</a></li>
+		</ul>
+	</li>
+</ul>
+            </div>
+            <div class="col">
+                <h4><a href="stories/index.html" onClick="track(this, 'Footer Navigation', 'Stories');return false;">Stories</a></h4>
+                                    <ul>
+                        <li><a href="stories/index.html">All Stories</a></li>
+                        <li><a href="festivalhistory/index.html">30 Years of the Festival!</a></li>
+                        <li><a href="stories/articles/index.html">Articles</a></li>
+                        <li><a href="stories/blog/index.html">Blog</a></li>
+                        <li><a href="photos/index.html">Photos</a></li>
+                        <li><a href="stories/slideshows/index.html">Audio Slideshows</a></li>
+                        <li><a href="press-center/index.html">Press Center</a></li>
+                        <li><a href="stories/rss-feeds.2">RSS</a></li>
+                        <li><a href="email/index.html">Email Manager</a></li>
+                    </ul>
+                <h4><a href="videos/index.html" onClick="track(this, 'Footer Navigation', 'Videos');return false;">Videos</a></h4>
+                                    <ul id="bottom-most-footer-list">
+                        <li><a href="nowplaying">Now Playing</a></li>
+                        <li><a href="video/index.html">Browse Videos</a></li>
+                        <li><a href="video/live/index.html">Live@Sundance</a></li>
+                        <li><a href="http://history.sundance.org/">Archives</a></li>
+                        <li><a href="http://www.youtube.com/sff" target="_blank">YouTube Channel</a></li>
+                    </ul>
+            </div>
+            <div class="col">
+                
+                <h4><a href="http://history.sundance.org/" onClick="track(this, 'Footer Navigation', 'Archives');return false;">Archives</a></h4>
+                <ul>
+<li><a href="http://history.sundance.org/">Online Archives</a>
+	<ul>
+		<li><a href="http://history.sundance.org/search/">Advanced Search</a></li>
+		<li><a href="http://history.sundance.org/lists/">Common Searches</a></li>
+		
+	</ul>
+	</li>
+<li><a href="archives/film-preservation/index.html">Film Preservation</a>
+	<ul>
+		<li><a href="archives/collection/index.html">The Collection</a></li>
+		<li><a href="archives/film-preservation-faq/index.html">FAQ</a></li>
+		<li><a href="archives/collection-screenings/index.html">Collection Screenings</a></li>
+	</ul>
+	</li>
+<li><a href="archives/institute-archives/index.html">Institute Archives</a>
+	<ul>
+		<li><a href="archives/scope-of-materials/index.html">Scope of Materials</a></li>
+		<li><a href="archives/archives-collections/index.html">Archives Collections</a></li>
+		<li><a href="archives/archives-faq/index.html">Archives FAQ</a></li>
+		<li><a href="archives/archives-terms-of-access/index.html">Terms of Access</a></li>
+	</ul>
+</li>
+</ul>
+
+                <h4><a href="press-center/index.html" onClick="track(this, 'Footer Navigation', 'Press');return false;">Press</a></h4>
+                <ul>
+	<li><a href="press-center/index.html">Institute Press Center</a></li>
+        <li><a href="festival/press/index.html">Festival Press</a></li>
+	<li><a href="press-center/press-releases/index.html">Press Releases</a></li>
+        <li><a href="http://press.sundance.org/press/">Images &amp; Publicity Materials</a></li>
+        <li><a href="press-center/press-center-faq/index.html">Press FAQ</a></li>
+	<li><a href="filmforward/press/index.html">Film Forward Press</a></li>
+	
+	
+	
+	
+	
+	
+	
+	
+</ul>
+            </div>
+            <div class="col">
+                <h4><a href="support-us/index.html" onClick="track(this, 'Footer Navigation', 'Support Us');return false;">Support Us</a></h4>
+                <ul>
+	<li><a href="support-us/index.html">Overview</a></li>
+	<li><a href="https://donate.sundance.org/page/contribute/">Donate</a></li>
+	<li><a href="support-us/patron-circle/index.html">Patron Circle</a>
+		<ul>
+			<li style="display: none;"><a href="support-us/join-patron-circle/index.html">Join Patron Circle</a></li> <!-- old page -->
+			<li><a href="support-us/patron-circle-join/index.html">Join</a></li>
+			<li><a href="support-us/patron-circle-renew/index.html">Renew</a></li>
+		</ul>
+	</li>
+	<li><a href="support-us/membership/index.html">Become A Member</a></li>
+	<li><a href="support-us/corporate-support/index.html">Corporate Support</a></li>
+	<li><a href="support-us/special-events/index.html">Benefit Events</a></li>
+	<li><a href="support-us/foundation-giving/index.html">Foundation Giving</a></li>
+	<li><a href="support-us/community-programs/index.html">Community Programs</a>
+		<ul>
+			<li><a href="support-us/public-programming/index.html">Public Programming</a></li>
+			<li><a href="support-us/festival-student-programs/index.html">Sundance Film Festival Student Programs</a></li>
+			<li><a href="support-us/community-at-the-festival/index.html">Outreach at the Festival</a></li>
+			<li><a href="stories/blog/c/community/index.html">Blog</a></li>
+		</ul>
+	</li>
+	<li><a href="support-us/art-house-project/index.html">Art House Project</a></li>        
+</ul>
+            </div>
+        </div>
+        <div id="festival-info">
+            <h3><a href="festival/index.html" onClick="track(this, 'Footer Navigation', 'Sundance Film Festival');return false;">Film Festival</a></h3>
+            <h4><a href="festival/index.html" onClick="track(this, 'Footer Navigation', 'Sundance Film Festival');return false;">Festival</a></h4>
+            <ul>
+                <li><a href="festival/index.html">Homepage</a></li>
+                <li><a href="festival/attend/index.html">Attend</a></li>
+                <li><a href="festival/tickets/index.html">Get Tickets</a></li>
+                <li><a href="http://filmguide.sundance.org/">Festival Program</a></li>
+                <li><a href="videos/index.html">Watch</a></li>
+                <li><a href="festival/stories/index.html">Stories</a></li>
+                <li><a href="store">Store</a></li>
+                <li><a href="festival/support-us/index.html">Support Us</a></li>
+</ul>
+        </div>
+
+        <div id="sponsors">
+            <div id="sponsor-inner">
+                <h3>Partners</h3>
+                <div id="logos">
+                    <a href="http://www.itunes.com/" target="_blank" onClick="track(this, 'Sponsor (Artist Services Footer)', 'Apple iTunes');return false;"><img src="images/wrapper/artistservices/sponsors/itunes-offblack.png" alt="Apple iTunes" /></a>
+                    <a href="http://www.amazon.com/" target="_blank" onClick="track(this, 'Sponsor (Artist Services Footer)', 'Amazon');return false;"><img src="images/wrapper/artistservices/sponsors/amazon-offblack.png" alt="Amazon" /></a>
+                    <a href="http://www.hulu.com/" target="_blank" onClick="track(this, 'Sponsor (Artist Services Footer)', 'Hulu');return false;"><img src="images/wrapper/artistservices/sponsors/hulu-offblack.png" alt="Hulu" /></a>
+                    <a href="http://www.netflix.com/" target="_blank" onClick="track(this, 'Sponsor (Artist Services Footer)', 'Netflix');return false;"><img src="images/wrapper/artistservices/sponsors/netflix-offblack.png" alt="Netflix" /></a>
+                    <a href="http://www.youtube.com/" target="_blank" onClick="track(this, 'Sponsor (Artist Services Footer)', 'YouTube');return false;"><img src="images/wrapper/artistservices/sponsors/youtube-offblack.png" alt="YouTube" class="right-side-img" /></a>
+                    <br>
+                    <a href="http://www.sundancenow.com/" target="_blank" onClick="track(this, 'Sponsor (Artist Services Footer)', 'SundanceNOW');return false;"><img src="images/wrapper/artistservices/sponsors/sundancenow-offblack.png" alt="SundanceNOW" /></a>
+                    <a href="http://www.topspinmedia.com/" target="_blank" onClick="track(this, 'Sponsor (Artist Services Footer)', 'Topspin');return false;"><img src="images/wrapper/artistservices/sponsors/topspin-offblack.png" alt="Topspin" /></a>
+                    <a href="http://www.newvideo.com/" target="_blank" onClick="track(this, 'Sponsor (Artist Services Footer)', 'New Video');return false;"><img src="images/wrapper/artistservices/sponsors/newvideo-offblack.png" alt="New Video" /></a>
+                    <a href="http://www.kickstarter.com/" target="_blank" onClick="track(this, 'Sponsor (Artist Services Footer)', 'Kickstarter');return false;"><img src="images/wrapper/artistservices/sponsors/kickstarter-offblack.png" alt="Kickstarter" class="right-side-img" /></a>
+                </div>
+            </div>
+        </div>
+
+        <p id="mission-statement">SUNDANCE INSTITUTE IS A NONPROFIT ORGANIZATION DEDICATED TO THE DISCOVERY<br />
+            AND DEVELOPMENT OF INDEPENDENT ARTISTS AND AUDIENCES IN FILM AND THEATRE.</p>
+        <p id="copyright-etc">&copy;2000&ndash;2014 Sundance Institute. Sundance Film Festival<span class="superscript">&reg;</span> and Sundance Institute<span class="superscript">&reg;</span> are exclusive trademarks of Sundance Institute<span class="superscript">&reg;</span>. All rights reserved.<br><span id="last-line">Got feedback? Email <span id='eeEncEmail_PnDOjccd4C'>.(JavaScript must be enabled to view this email address)</span><script type="text/javascript">
+//<![CDATA[
+var l=new Array();
+var output = '';
+l[0]='>';l[1]='a';l[2]='/';l[3]='<';l[4]=' 103';l[5]=' 114';l[6]=' 111';l[7]=' 46';l[8]=' 101';l[9]=' 99';l[10]=' 110';l[11]=' 97';l[12]=' 100';l[13]=' 110';l[14]=' 117';l[15]=' 115';l[16]=' 64';l[17]=' 115';l[18]=' 97';l[19]=' 101';l[20]=' 100';l[21]=' 105';l[22]='>';l[23]='\"';l[24]=' 103';l[25]=' 114';l[26]=' 111';l[27]=' 46';l[28]=' 101';l[29]=' 99';l[30]=' 110';l[31]=' 97';l[32]=' 100';l[33]=' 110';l[34]=' 117';l[35]=' 115';l[36]=' 64';l[37]=' 115';l[38]=' 97';l[39]=' 101';l[40]=' 100';l[41]=' 105';l[42]=':';l[43]='o';l[44]='t';l[45]='l';l[46]='i';l[47]='a';l[48]='m';l[49]='\"';l[50]='=';l[51]='f';l[52]='e';l[53]='r';l[54]='h';l[55]='a ';l[56]='<';
+for (var i = l.length-1; i >= 0; i=i-1){ 
+if (l[i].substring(0, 1) == ' ') output += "&#"+unescape(l[i].substring(1))+";"; 
+else output += unescape(l[i]);
+}
+document.getElementById('eeEncEmail_PnDOjccd4C').innerHTML = output;
+//]]>
+</script>. <a href="about/contacts/index.html">Contact Us</a> &#8226; <a href="press-center/index.html">Press Center</a> &#8226; <a href="privacy-policy/index.html">Privacy Policy</a></span></p>
+    </div>
+</div>
+
+
+</body>
+</html>	

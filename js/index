@@ -1,0 +1,132 @@
+jQuery(document).ready(function() {
+	jQuery(".labelize input:text").clearingInput();
+});
+
+
+     Cufon.replace('.frank-book', {hover: true, fontFamily: 'ITC Franklin Gothic Book'})('.frank-demi', {hover: true, fontFamily: 'ITC Franklin Gothic Demi'})('.generika', {hover: true, fontFamily: 'Generika MG'});  // removed ('.synchro', {hover: true, fontFamily: 'Synchro LET'}) on 2013-12-06, a monumental day!
+
+
+
+
+function side_nav(){
+
+  var path = location.pathname;
+  if (path == '/') {
+    jQuery('#section-nav a[href$="' + location + '"]').parent().addClass('nav_active'); // check path as typed exactly
+    jQuery('#section-nav a[href$="' + location + '/"]').parent().addClass('nav_active'); // check path with an extra trailing slash added
+  } else {
+    jQuery('#section-nav a[href$="' + path + '"]').parent().addClass('nav_active'); // check path as typed exactly
+    jQuery('#section-nav a[href$="' + path + '/"]').parent().addClass('nav_active'); // check path with an extra trailing slash added
+  }
+  // Hide all subnavigation
+  jQuery('#section-nav ul ul').hide();
+  // show all parent sibling
+  jQuery('#section-nav li.nav_active').parent().show();
+  // show child
+  jQuery('#section-nav li.nav_active').children('ul').show();
+  // when subnavigation active, show parent and its children
+  jQuery('#section-nav li.nav_active').parent().parent().parent().show();
+
+
+  var here = jQuery('#section-nav li.nav_active a:first').addClass('current-page');
+}
+
+jQuery(function($j) {side_nav();});
+
+function toggleCollapsible(id)
+{
+	if (document.getElementById(id).style.display == 'none' || document.getElementById(id).style.display == '') {
+		document.getElementById(id).style.display = 'block';
+	} else {
+		document.getElementById(id).style.display = 'none';
+	}
+}
+
+function track(link, category, action) {
+  try {
+    var pageTracker = _gat._getTracker("UA-4208897-5");
+    pageTracker._setDomainName(".sundance.org");
+    pageTracker._trackEvent(category, action);
+    setTimeout('document.location = "' + link.href + '"', 100);
+  }catch(err){}}
+
+function track_popup(link, category, action) {
+  try {
+    var pageTracker = _gat._getTracker("UA-4208897-5");
+    pageTracker._setDomainName(".sundance.org");
+    pageTracker._trackEvent(category, action);
+  }catch(err){}}
+
+searchIndex = 0;
+
+function navigateSearchDown() {
+	if (document.getElementById("search-suggestion" + (searchIndex + 1))) {
+		if (document.getElementById("search-suggestion" + searchIndex)) {
+			document.getElementById("search-suggestion" + searchIndex).className = '';
+		}
+		searchIndex++;
+		document.getElementById("search-suggestion" + searchIndex).focus();
+		document.getElementById("search-suggestion" + searchIndex).className = 'active';
+	}
+}
+
+function navigateSearchUp() {
+	if (document.getElementById("search-suggestion" + (searchIndex - 1))) {
+		if (document.getElementById("search-suggestion" + searchIndex)) {
+			document.getElementById("search-suggestion" + searchIndex).className = '';
+		}
+		searchIndex--;
+		document.getElementById("search-suggestion" + searchIndex).focus();
+		document.getElementById("search-suggestion" + searchIndex).className = 'active';
+	}
+}
+
+function lookup(string, e)
+{	
+	if (string.length == 0) {jQuery('#search-suggestions').fadeOut();} else {
+		jQuery.post('/search.php', {query: string}, function(data) {
+			jQuery('#search-suggestions').fadeIn();
+			jQuery('#search-suggestions').html(data);
+			searchIndex = 0;
+		});
+	}
+}
+////////////////////////////////////////////////////
+//  Attach tracking to all download & external links
+//  This code hosted at www.axllent.org/docs/programming-tips/google-analytics/
+//  Added here 2013-Apr-02
+//  Updated 2013-Jul-25 to not treat internal domains as external
+////////////////////////////////////////////////////
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-4208897-5']);
+_gaq.push(['_trackPageview']);
+
+function _gaLt(event) {
+    //Get parts of url so can get domain.
+    var parts = location.hostname.toString().split('.'.toString());
+    var domain = parts[parts.length - 2] + '.' + parts[parts.length - 1];
+    var el = event.srcElement || event.target;
+
+    // Loop up the tree through parent elements if clicked element is not a link (eg: an image in a link)
+    while (el && (typeof el.tagName == 'undefined' || el.tagName.toLowerCase() != 'a' || !el.href))
+        el = el.parentNode;
+    if (el && el.href) {
+        if (el.href.indexOf(domain) == -1) { /* external link */
+            _gaq.push(["_trackEvent", "Outgoing Links", el.href, document.location.pathname + document.location.search]);
+
+            // if target not set delay opening of window by 0.5s to allow tracking
+            if (!el.target || el.target.match(/^_(self|parent|top)$/i)) {
+                setTimeout(function () {
+                    document.location.href = el.href;
+                }.bind(el), 500);
+
+                // Prevent standard click
+                event.preventDefault ? event.preventDefault() : event.returnValue = !1;
+            }
+        }
+    }
+}
+// Attach the event to all clicks in the document
+var d = document;
+d.addEventListener ? d.addEventListener("click",_gaLt,!1) : d.attachEvent && d.attachEvent("onclick",_gaLt);
+////////////////////////////////////////////////////
