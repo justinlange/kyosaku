@@ -5,4 +5,4 @@ To Run Kyosaku locally:
 
 2. When Chrome opens with a new window, navigate to the following address: file:///Users/mariesester/code/kyosaku/index.html#  (replacing mariesester with your username, if on a different computer)
 
-3. Finally, to reset the user experience, navigate to: file:///Users/mariesester/code/kyosaku/sundance-local/www.sundance.org/reset.html#
+3. Finally, to reset the user experience, navigate to: file:///Users/mariesester/code/kyosaku/reset.html
