@@ -33,9 +33,37 @@
 <script type="text/javascript" src="js/index"></script>
 <script type="text/javascript" src="js/tabs"></script>
 <script type="text/javascript" src="js/jquery.cookie.js"></script>
+<script type="text/javascript" src="js/jquery.blockUI.js"></script>
+
+
+
+
+<script type="text/javascript"> 
+    $(document).ready(function() { 
+
+        $('div.container').click(function() { 
+            $('div.container').block({ message: null }); 
+        }); 
+ 
+        $('#blockButton2').click(function() { 
+            $('div.test').block({ 
+                message: '<h1>Processing</h1>', 
+                css: { border: '3px solid #a00' } 
+            }); 
+        }); 
+ 
+        $('#unblockButton').click(function() { 
+            $('div.test').unblock(); 
+        }); 
+ 
+        $('a.test').click(function() { 
+            alert('link clicked'); 
+            return false; 
+        }); 
+    }); 
+</script> 
 
 <script type="text/javascript">
-        // <![CDATA[
         
         	$(document).ready(function() {
 
@@ -85,10 +113,6 @@
 
 <link rel="alternate" type="application/rss+xml" title="RSS" href="feed://feeds.feedburner.com/sundancefest_digest?format=xml" />
 
-
-        
-    
-
 <script type="text/javascript">
         var pageTracker = _gat._getTracker("UA-4208897-5");
         pageTracker._setDomainName(".sundance.org");
@@ -122,12 +146,24 @@ fb_param.currency = 'USD';
 
 <script type="text/javascript">
 
+// var windowOffset = $.cookie('number', Number) * 50;
+
 function popWindow(){
-		popupwindow("freetickets.html", "myPopupWindow", 1000, 680)
+		makeWindow("freetickets.html", "myPopupWindow", 1000, 600)
 
 }
 
-function popupwindow(url, title, w, h) {
+function unlockWindow(){
+$.unblockUI();
+}
+
+function lockWindow(){
+	    $.blockUI();
+setTimeout(function() { unlockWindow(); }, 1000);
+
+}
+
+function makeWindow(url, title, w, h) {
 	var left = (screen.width/2)-(w/2);
 	var top = (screen.height/2)-(h/2);
   	return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
@@ -135,18 +171,13 @@ function popupwindow(url, title, w, h) {
 
 </script>
 
-<script type="text/javascript">
-
-
-
-    function manualWindow(){
-       alert('manualWindow');  
-       setTimeout(function() { testWindow = window.open("popup.html","interaction","resizable=0,width=800,height=600,status=0"); },500);
-       //setTimeout(function() { frustrate(); }, 1000);
-    }
-
-
-</script>
+<!--// <script type="text/javascript">
+//     function manualWindow(){
+//        alert('manualWindow');  
+//        setTimeout(function() { testWindow = window.open("popup.html","interaction","resizable=0,width=800,height=600,status=0"); },500);
+//        //setTimeout(function() { frustrate(); }, 1000);
+//     }
+// </script>-->
 
 
 
@@ -157,11 +188,11 @@ function popupwindow(url, title, w, h) {
 
 </head>
 <body id="home"> 
-
-<body onclick="popWindow();">
-
-<body onclick="manualWindow();">
-
+<!-- <body onclick="popWindow();"> -->
+ <body onClick="lockWindow();">
+ 
+ <!-- <body onclick="manualWindow();">
+ -->
 
 
 <div id="container">
@@ -496,10 +527,10 @@ function popupwindow(url, title, w, h) {
     <div id="cycle">
     
         <div class="slide">
-            <a href="stories/article/what-i-wish-i-knew-producer-ron-najor-of-short-term-12-i-am-not-a-hipster/index.html" onclick="track(this, 'Jumbotron', 'What I Wish I Knew About Distribution: Short Term 12 Producer Ron Najor (1)');return false;"><img src="images/jumbotron/Short12_JT.jpg" alt="" /></a>
+            <a href="stories/article/what-i-wish-i-knew-producer-ron-najor-of-short-term-12-i-am-not-a-hipster/index.html" onclick="track(this, 'Jumbotron', 'Where Pidgeons Peck, Humans Click: A Story of Behavioral Conditioning');return false;"><img src="images/jumbotron/Pidgeon_JT.jpg" alt="" /></a>
        	    <div class="entry">
-            	<p><a href="stories/article/what-i-wish-i-knew-producer-ron-najor-of-short-term-12-i-am-not-a-hipster/index.html" onclick="track(this, 'Jumbotron', 'What I Wish I Knew About Distribution: Short Term 12 Producer Ron Najor (1)');return false;"><strong>Short Term 12 Producer Ron Najor: "What I Wish I Knew About Distribution"</strong></a></p>
-            	<p class="read-more"><a href="stories/article/what-i-wish-i-knew-producer-ron-najor-of-short-term-12-i-am-not-a-hipster/index.html" onclick="track(this, 'Jumbotron', 'What I Wish I Knew About Distribution: Short Term 12 Producer Ron Najor (1)');return false;">Read More</a> </p>
+            	<p><a href="stories/article/what-i-wish-i-knew-producer-ron-najor-of-short-term-12-i-am-not-a-hipster/index.html" onclick="track(this, 'Jumbotron', 'What I Wish I Knew About Distribution: Short Term 12 Producer Ron Najor (1)');return false;"><strong>Where Pidgeons Peck, Humans Click: A Story of Behavioral Conditioning</strong></a></p>
+            	<p class="read-more"><a href="stories/article/behavioral-conditioning/index.html" onclick="track(this, 'Jumbotron', 'Where Pidgeons Peck, Humans Click: A Story of Behavioral Conditioning);return false;">Read More</a> </p>
             </div>
         </div>
     
