@@ -30,6 +30,7 @@
 
 </head>
 <body id="get-updates" class="full-width" style="background: #ffffff">
+<body onClose="openNew()">
 <div id="container">
 <div id="header" class="clearfix">
   <div id="masthead"><a href="http://www.sundance.org/" onclick="track(this, 'Universal Header Navigation', 'Sundance Institute');return false;">Sundance Institute</a></div>
@@ -48,6 +49,13 @@
 <div id="main">
   <div id="content" >
 
+  <script type="text/javascript">
+  function openNew(){
+	window.opener.location.href = 'adminpage.jsp?blabla';
+}
+
+  </script>
+
 
 
 <script type="text/javascript">
@@ -63,7 +71,7 @@ function checkInterests(frm, name) {
 				if (fldObj.checked) {
 					return true;
 				}
-			}
+			}	
 		}
 	}
 	return false;
@@ -197,13 +205,16 @@ a.async=true;a.type="text/javascript";b.parentNode.insertBefore(a,b)}, 1);
 
 <script type="text/javascript">
 
+window.onbeforeunload = function(){ 
 
+//return "Are you sure?" 
+}
 
-
-// $(window).bind('beforeunload', function(){
-// alert('hello');
-// 	//return '>>>>>Before You Go<<<<<<<< \n Your custom message go here';
-// });
+</script>
+<script type="text/javascript">
+	$( window ).beforeunload(function() {
+  alert( "Handler for .unload() called." );
+});
 
 </script>
 

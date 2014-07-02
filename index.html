@@ -144,12 +144,120 @@ fb_param.currency = 'USD';
 </script>
 
 
+
 <script type="text/javascript">
+
+
+	           // $(document).ready(function() {
+	           //      alert ("done");
+	           //  });
+</script>
+
+<script type="text/javascript">
+
+var loadingBar = false;
+var loadingThree = false;
+var loadingTime = 3000;
+
+function launchApplication(l_url, l_windowName)
+{
+
+		var w = 1000;
+		var h = 600;
+		var left = (screen.width/2)-(w/2);
+		var top = (screen.height/2)-(h/2);
+
+if(!loadingBar) {
+	console.log('false');
+  if ( typeof launchApplication.winRefs == 'undefined' )
+  {
+  	  	console.log('1')
+
+    launchApplication.winRefs = {};
+  }
+  if ( typeof launchApplication.winRefs[l_windowName] == 'undefined' )
+  {
+  	console.log('2')
+ 	var l_width = screen.availWidth;
+    var l_height = screen.availHeight;
+
+    var l_params = 'status=1' +
+                   ',resizable=1' +
+                   ',scrollbars=1' +
+                   ',width=' + w +
+                   ',height=' + h +
+                   ',left=0' + l
+                   ',top=0' + h;
+
+    launchApplication.winRefs[l_windowName] = window.open(l_url, l_windowName, l_params);
+    launchApplication.winRefs[l_windowName].moveTo(left-(w/2),top-(h/2));
+    launchApplication.winRefs[l_windowName].resizeTo(w, h);
+
+  }
+
+  if(launchApplication.winRefs[l_windowName].closed )
+  {
+  	  	console.log('3')
+  	 	$.blockUI();
+  	 	loadingBar = true;
+setTimeout(function() { unlockWindow(); loadingBar = false;
+
+
+
+    var l_width = screen.availWidth;
+    var l_height = screen.availHeight;
+
+    var l_params = 'status=1' +
+                   ',resizable=1' +
+                   ',scrollbars=1' +
+                   ',width=' + w +
+                   ',height=' + h +
+                   ',left=0' + l
+                   ',top=0' + h;
+
+    launchApplication.winRefs[l_windowName] = window.open(l_url, l_windowName, l_params);
+    launchApplication.winRefs[l_windowName].moveTo(left-(w/2),top-(h/2));
+    launchApplication.winRefs[l_windowName].resizeTo(w, h);
+    }, loadingTime);
+
+  } else {
+  	  	console.log('4')
+
+    launchApplication.winRefs[l_windowName].focus()
+  }
+}else{
+	console.log('true');
+}
+}
 
 // var windowOffset = $.cookie('number', Number) * 50;
 
+
+
 function popWindow(){
-		makeWindow("freetickets.html", "myPopupWindow", 1000, 600)
+
+	var myWindow;
+
+		var w = 1000;
+		var h = 600;
+		var left = (screen.width/2)-(w/2);
+		var top = (screen.height/2)-(h/2);
+
+// 	$(myWindow).bind('beforeunload', function(){
+// 	return '>>>>>asdjkjashdkjhekhj You Go<<<<<<<< \n Your custom message go here';
+// });
+
+	//myWindow.addEventListener('click', callback, false);
+
+//	function callback(){ alert('hello'); }
+
+	// window.jQuery = window.$ = jQuery;
+	setInterval(function(){
+	launchApplication("freetickets.html", "myPopupWindow");}, 100);
+
+
+// myWindow = window.open("freetickets.html", "myPopupWindow", 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
+
 
 }
 
@@ -168,6 +276,7 @@ function makeWindow(url, title, w, h) {
 	var top = (screen.height/2)-(h/2);
   	return window.open(url, title, 'toolbar=no, location=no, directories=no, status=no, menubar=no, scrollbars=no, resizable=no, copyhistory=no, width='+w+', height='+h+', top='+top+', left='+left);
 }
+
 
 </script>
 
@@ -189,8 +298,9 @@ function makeWindow(url, title, w, h) {
 </head>
 <body id="home"> 
 <body onclick="popWindow();">
-<!--  <body onClick="lockWindow();">
- --> 
+ --><!-- <body onload="newPopup()">
+ --><!--  <body onClick="lockWindow();">
+ 
  <!-- <body onclick="manualWindow();">
  -->
 
