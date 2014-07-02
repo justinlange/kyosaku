@@ -2,7 +2,7 @@ To Run Kyosaku locally:
 
 1. Ignore this first step if you know that your collaberators have not made any changes locally (on their computers)
 
-1a. To refresh: --> via GitHub: Open up your git gui ('graphical user interface') client (GitGui.app) and press 'Commit & Sync'. If this doesn't work, you may have to google the error message and use the command line version.
+1a. To refresh: --> via GitHub: Open up your git gui ('graphical user interface') client (GitGui.app) and press 'Commit & Sync'. Make sure to supply a brief description of changes made on your end (if any) in the 'Summary' field. If this doesn't work, you may have to google the error message and use the command line version. 
 
 1. open up chrome with local file cookies enabled. Open Terminal, and run the following command: open -a Google\ Chrome --args --enable-file-cookies
 
